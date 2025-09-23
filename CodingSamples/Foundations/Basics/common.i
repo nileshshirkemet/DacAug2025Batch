@@ -6,7 +6,7 @@
 #####################################################################
 
 .intel_syntax noprefix
-#.section .note.GNU-stack, "", @progbits
+.section .note.GNU-stack, "", @progbits
 .text
 
 #Begins execution of the program
