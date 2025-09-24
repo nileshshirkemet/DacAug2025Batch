@@ -1,0 +1,31 @@
+    1  cd Ba
+    2  cd Foundations/Basics/
+    3  cp branchingdectest.s branchingitrtest.s 
+    4  code branchingitrtest.s 
+    5  as branchingitrtest.s 
+    6  ld -o program a.out runtime.o 
+    7  ./program 
+    8  ./run branchingitrtest.s 
+    9  cp branchingdectest.s procedureinvtest.s
+   10  code pro
+   11  code procedureinvtest.s 
+   12  ./run procedureinvtest.s 
+   13  code dijkstra.s
+   14  ./run dijkstra.s 
+   15  as dijkstra.s -o dijkstra.o
+   16  objdump -t dijkstra.o
+   17  as dijkstra.s -o dijkstra.o
+   18  objdump -t dijkstra.o
+   19  as dijkstra.s -o dijkstra.o
+   20  objdump -t dijkstra.o
+   21  as dijkstra.s -o dijkstra.o
+   22  objdump -t dijkstra.o
+   23  code proceduremodtest.s 
+   24  as proceduremodtest.s 
+   25  ld -program a.out runtime.o 
+   26  ld -o program a.out runtime.o 
+   27  ld -o program a.out runtime.o dijkstra.o
+   28  ./program 
+   29  cd ..
+   30  ls
+   31  history > cmd24-09-25evening.txt 
