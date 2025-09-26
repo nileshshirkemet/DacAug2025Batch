@@ -1,0 +1,21 @@
+    1  clear
+    2  code variabletest.cpp
+    3  c++ variabletest.cpp 
+    4  ./a.out 
+    5  c++ variabletest.cpp 
+    6  ./a.out 
+    7  c++ variabletest.cpp 
+    8  ./a.out 
+    9  cp variabletest.cpp arraytest.cpp
+   10  code arraytest.cpp 
+   11  c++ arraytest.cpp 
+   12  ./a.out 
+   13  cp variabletest.cpp ifelsetest.cpp
+   14  code ifelsetest.cpp 
+   15  c++ ifelsetest.cpp 
+   16  ./a.out 
+   17  code switchtest.cpp
+   18  c++ switchtest.cpp 
+   19  ./a.out 
+   20  cd ..
+   21  history > cmd26-09-25morning.txt 
