@@ -1,0 +1,1000 @@
+  482  wget iitdac.met.edu/shared/java/ShopDB.java
+  483  rm ShopDB.java
+  484  mv ShopDB.java.1  ShopDB.java
+  485  vi ShopDB.java
+  486  exit
+  487  cd Course/Java/Advanced/JSP/TagHandlersTest/demo1/src/main/webapp/
+  488  vi detail-view.jsp
+  489  exit
+  490  ls
+  491  cd Course/Java/Advanced/JSP/TagHandlersTest/demo1
+  492  ./run
+  493  ls
+  494  bash run
+  495  ll
+  496  chmod u+x run 
+  497  ll
+  498  ./run 
+  499  exit
+  500  cd Advanced/
+  501  ls
+  502  mkdir Microservices
+  503  cd Microservices/
+  504  mkdir GRPCTest
+  505  cd GRPCTest
+  506  unzip -d contract ../../maven-projects/grpc-protolib.zip 
+  507  cd contract/
+  508  code .
+  509  mvn install
+  510  ls target/generated-sources/protobuf/grpc-java/sales/OrderManagerGrpc.java 
+  511  cd ..
+  512  unzip -d server ../../maven-projects/eclink-app.zip 
+  513  cd server/
+  514  code .
+  515  notepad.exe ../contract/src/main/proto/order_manager.proto 
+  516  netstat -pnlt
+  517  cd ..
+  518  cp -r ~/Course/DotNet/Advanced/Microservices/GRPCTest/DemoApp/ demo
+  519  cd demo/
+  520  ls
+  521  python3 Program.py CU102
+  522  python3 Program.py CU104
+  523  python3 Program.py CU103
+  524  python3 Program.py CU101
+  525  python3 Program.py CU101 101 11
+  526  python3 Program.py CU101
+  527  history > ../../../../cmd19-05-morning.txt 
+  528  cp -r ../../../../../Java/ /mnt/d/DAC0225/
+  529  ls
+  530  cd ../..
+  531  cd ../
+  532  cd JSP/JavaBeansTest/demo/
+  533  ./run
+  534  vi nginx/conf/nginx.conf
+  535  ./nginx/sbin/nginx 
+  536  ./nginx/sbin/nginx -s stop
+  537  exit
+  538  s
+  539  ls
+  540  cd Nilesh
+  541  ls
+  542  cd Microservices/
+  543  ls
+  544  cd GRPCTest/
+  545  ls
+  546  cd contract/
+  547  ls
+  548  mvn install
+  549  ls
+  550  cd ..
+  551  cd server/
+  552  ls
+  553  vi run
+  554  ./run
+  555  chmod u+x run
+  556  ./run
+  557  ls
+  558  cd Nilesh/
+  559  ls
+  560  cd Microservices/
+  561  ls
+  562  cd GRPCTest/
+  563  ls
+  564  cd demo/
+  565  ls
+  566  python3 Program.py CU102
+  567  cd ..
+  568  ls
+  569  cd ..
+  570  ls
+  571  cd RESTTest/
+  572  ls
+  573  cd server/
+  574  ls
+  575  ls src
+  576  ls src/main/
+  577  ls src/main/java
+  578  ls src/main/java/app/Program.java
+  579  vi src/main/java/app/Program.java
+  580  ls src/main/java/app/
+  581  ls src/main/java/app/services/
+  582  ls src/main/java/app/services/OrderManagerApi.java
+  583  vi src/main/java/app/services/OrderManagerApi.java
+  584  ./run
+  585  chmod u+x run
+  586  ./run
+  587  vi run
+  588  ls
+  589  rm -r target
+  590  ./run
+  591  ls
+  592  cd Nilesh/
+  593  ls
+  594  cd Microservices/
+  595  ls
+  596  cd RESTTest/
+  597  ls
+  598  cd demo
+  599  ls
+  600  vi index.html
+  601  vi index.js
+  602  cd ..
+  603  ls
+  604  cd demo/
+  605  ls
+  606  cd ..
+  607  ls
+  608  cd GRPCTest/
+  609  ls
+  610  cd demo
+  611  vi Program.py
+  612  cd ..
+  613  ls 
+  614  cd RESTTest/
+  615  ls
+  616  cd demo/
+  617  ls
+  618  cd RESTTest/
+  619  ls
+  620  vi index.js
+  621  python3 -m http.server 5001
+  622  vi index.js
+  623  python3 -m http.server 5001
+  624  ls
+  625  path
+  626  vi index.js
+  627  python3 -m http.server 5001
+  628  cd ..
+  629  ls
+  630  cd ..
+  631  ls
+  632  cd Microservices/
+  633  ls
+  634  cd JavaBeansTest/
+  635  ls
+  636  cd demo
+  637  ls
+  638  cd src/main/webapp/
+  639  ls
+  640  vi index.js
+  641  cd ..
+  642  ls 
+  643  ./run
+  644  chmod u+x run
+  645  ./run
+  646  ls
+  647  ls src/main/java/
+  648  ls
+  649  pwd
+  650  cd ..
+  651  ls
+  652  cd demo/
+  653  ls
+  654  cd src
+  655  ls
+  656  cd main
+  657  ls
+  658  cd webapp/
+  659  ls
+  660  cd WEB-INF/
+  661  ls
+  662  vi web.xml 
+  663  ls
+  664  cd ..
+  665  ls
+  666  cd ..
+  667  ls
+  668  cd ..
+  669  ls
+  670  ./run
+  671  ls
+  672  code .
+  673  ls
+  674  pwd
+  675  cd ..
+  676  ls
+  677  rm -r JavaBeansTest/
+  678  ls
+  679  cd RESTTest/
+  680  ls
+  681  cd demo
+  682  cd ..
+  683  cd demo1
+  684  ls
+  685  ./run
+  686  chmod u+x run
+  687  ./run
+  688  mkdir DAC0225
+  689  cd DAC0225/
+  690  mkdir ShellScripting
+  691  cd ShellScripting/
+  692  vi test.sh
+  693  ll test.sh 
+  694  chmod a+x test.sh 
+  695  ll test.sh 
+  696  ls
+  697  sh test.sh 
+  698  ls
+  699  ls createdbyscript/
+  700  vi createdbyscript/basic.txt 
+  701  vi test.sh 
+  702  man mv 
+  703  rm -r createdbyscript/
+  704  man mv 
+  705  whoami
+  706  uname
+  707  arch
+  708  hostname
+  709  echo $Path
+  710  echo $CLASSPath
+  711  pwd
+  712  cd ~ 
+  713  pwd
+  714  cd -
+  715  date
+  716  date +%d-%m-%Y 
+  717  date +%d:%m:%Y 
+  718  touch file{1..10}
+  719  ls
+  720  touch file{a..z}.txt
+  721  ls
+  722  rm *
+  723  rm -r *
+  724  ls
+  725  cp /mnt/d/test.txt 
+  726  cp /mnt/d/test.txt .
+  727  vi test.txt 
+  728  head test.txt 
+  729  tail test.txt 
+  730  ls -a 
+  731  touch .abc
+  732  ls
+  733  ls -a 
+  734  mkdir directory
+  735  ls -p
+  736  ls -r
+  737  ls -l
+  738  ls --sort=time
+  739  ls --sort=size
+  740  touch a b c
+  741  ls
+  742  touch abc pqr xyz
+  743  ls
+  744  mkdir -p MET MET/IIT MET/IIT/DAC MET/IIT/DACA
+  745  ls
+  746  ls MET/
+  747  ls MET/IIT/
+  748  ls -R
+  749  ls
+  750  rm -r *
+  751  mkdir -p MET MET/IIT MET/IIT/DAC MET/IIT/DACA
+  752  ls
+  753  cp /bin/???? .  
+  754  ls
+  755  ls a
+  756  ls a*
+  757  ls a* p*
+  758  ls a* p* l*
+  759  ls [apl]*
+  760  ls [!apl]*
+  761  ls stt*
+  762  man cat 
+  763  cat < first
+  764  cat > first
+  765  cat < first
+  766  cat > first
+  767  cat < first
+  768  cat > first
+  769  cat >> first
+  770  cat < first
+  771  cat >> first
+  772  cat < first
+  773  cat < second
+  774  cat > second
+  775  cat < first second 
+  776  cat first second 
+  777  ls > output
+  778  vi output 
+  779  history > cmd20-06-2025.txt
+  780  vi cmd20-06-2025.txt 
+  781  date 
+  782  date > datefile
+  783  cat datefile 
+  784  cat first second 
+  785  cat first second third 
+  786  cat first second third > errorlogfile
+  787  cat first second third 2> errorlogfile
+  788  vi errorlogfile 
+  789  cat first second third 2>> errorlogfile
+  790  vi errorlogfile 
+  791  man grep 
+  792  man grep > grepopfile
+  793  vi grepopfile 
+  794  grep -e begninning grepopfile
+  795  grep -e symbol grepopfile
+  796  grep -e Symbol grepopfile
+  797  grep -i Symbol grepopfile
+  798  grep -ic Symbol grepopfile
+  799  grep -v symbol grepopfile
+  800  grep -vc symbol grepopfile
+  801  grep -n symbol grepopfile
+  802  grep GREP grepopfile 
+  803  grep ^GREP grepopfile 
+  804  grep POSIX grepopfile 
+  805  grep POSIX$ grepopfile 
+  806  vi grepopfile 
+  807  grep POSIX$ grepopfile 
+  808  grep -c POSIX$ grepopfile 
+  809  grep -c [a-z] grepopfile 
+  810  vi grepopfile 
+  811  grep -c [a-z] grepopfile 
+  812  grep -c [0-9] grepopfile 
+  813  vi grepopfile 
+  814  grep .$ grepopfile 
+  815  grep ".$" grepopfile 
+  816  grep "\.$" grepopfile 
+  817  cp /mnt/d/names.txt .
+  818  wc
+  819  man wc
+  820  wc -l grepopfile 
+  821  man wc
+  822  wc -l grepopfile 
+  823  wc -c grepopfile 
+  824  ls -l grepopfile 
+  825  ls -l grepopfile | cut -c14-20
+  826  ls -l grepopfile | cut -c14-18
+  827  ls -l grepopfile | cut -c14-18 | cat >> UserInfo
+  828  vi UserInfo 
+  829  ls -l grepopfile | cut -c14-18 | cat >> UserInfo
+  830  vi UserInfo 
+  831  man tr
+  832  ll > pract
+  833  vi pract 
+  834  tr " " "|" < pract 
+  835  tr -s " " "|" < pract 
+  836  tr -d "0-9" > pract 
+  837  tr -d "0-9" < pract 
+  838  ll > pract
+  839  tr -d "0-9" < pract 
+  840  tr -d "0-9 a-z" < pract 
+  841  tr -d "0-9 a-z A-Z" < pract 
+  842  tr -dc "a-z" < pract 
+  843  tr "a-z" "A-Z" < pract 
+  844  vi names.txt 
+  845  sort names.txt 
+  846  uniq names.txt 
+  847  vi names.txt 
+  848  uniq names.txt 
+  849  vi names.txt 
+  850  uniq names.txt 
+  851  vi grepopfile 
+  852  tr "a-z" "A-Z" < grepopfile  
+  853  tr "a-z" "A-Z" < grepopfile  > g1
+  854  vi g1 
+  855  tr -dc "A-Z \012" < g1
+  856  tr -dc "A-Z \012" < g1 > g2
+  857  tr " " "\012" < g2
+  858  tr " " "\012" < g2 > g3
+  859  grep . < g3 
+  860  grep . < g3 > g4
+  861  vi g4 
+  862  grep ^...$ < g4 
+  863  grep ^...$ < g4 > g5
+  864  cat g5
+  865  sort g5
+  866  sort g5 > g6
+  867  uniq g6
+  868  cat grepopfile | tr "a-z" "A-Z" | tr -dc "A-Z \012" | tr " " "\012" | grep . | grep ^...$ | sort | uniq | tee  finalopfile
+  869  ls
+  870  vi finalopfile 
+  871  exit
+  872  mkdir DAC0825
+  873  mv DAC0825 DAC0825-01
+  874  ls
+  875  cd DAC0825-01/
+  876  pwd
+  877  touch file1.txt
+  878  ls
+  879  ls -l
+  880  chmod u+x file1.txt 
+  881  ls -l 
+  882  chmod a+x file1.txt 
+  883  ls -l
+  884  chmod a-x file1.txt 
+  885  ls -l
+  886  pwd
+  887  cd ..
+  888  pwd
+  889  cd DAC0825-01/
+  890  ls
+  891  rm file1.txt 
+  892  ls
+  893  mkdir Dir1
+  894  ls
+  895  rm Dir1
+  896  rm -r Dir1
+  897  man ls
+  898  man mkdir
+  899  ls
+  900  mkdir Dir1
+  901  mkdir Dir2
+  902  ls
+  903  cp Dir2 Dir3
+  904  cp -r Dir2 Dir3
+  905  ls
+  906  mv Dir3 ../
+  907  ls
+  908  cd ..
+  909  ls
+  910  cd DAC0825-01/
+  911  vi abc.txt
+  912  vi abc.txt 
+  913  cp abc.txt /mnt/d/DAC0825/
+  914  cp /mnt/d/DAC0825/pqr.txt .
+  915  ls
+  916  cp /mnt/d/DAC0825/pqr.txt ../../
+  917  cp /mnt/d/DAC0825/pqr.txt ../
+  918  cd ..
+  919  ls
+  920  vi pqr.txt 
+  921  vi abc.txt 
+  922  ls
+  923  ls apache-maven-3.9.5/
+  924  ls
+  925  ls apache-maven-3.9.5/
+  926  cd DAC0825-01/
+  927  ls ../apache-maven-3.9.5/
+  928  cd ..
+  929  pwd
+  930  touch DAC0825-01/xyz.txt
+  931  ls DAC0825-01/
+  932  vi test.c
+  933  cc test.c 
+  934  ./a.out
+  935  ls
+  936  cp test.c DAC0825-01/
+  937  cd DAC0825-01/
+  938  ls
+  939  cp ../test.c .
+  940  ls
+  941  vi test.c 
+  942  cc test.c 
+  943  cat test.c 
+  944  cc abc.c 
+  945  ./a.out 
+  946  cc -o test test.c 
+  947  ./test 
+  948  ls
+  949  ./test 
+  950  vi test.c 
+  951  mkdir C
+  952  cd C/
+  953  cp ../test.c .
+  954  pwd
+  955  code .
+  956  cc -o test test.c 
+  957  exit
+  958  ls
+  959  mkdir DAC0825
+  960  cd DAC0825
+  961  sudo cp -r /mnt/d/CHNMY/C/ .
+  962  cd C/
+  963  ls
+  964  vi 01Header.c 
+  965  cc -o test 01Header.c 
+  966  chmod u+x 01Header.c 
+  967  sudo chmod u+x 01Header.c 
+  968  cc -o test 01Header.c 
+  969  vi 01Header.c 
+  970  ls -s 01Header.c 
+  971  mv 01Header.c Header.c
+  972  sudo mv 01Header.c Header.c
+  973  cc -o test Header.c 
+  974  vi Header.c 
+  975  ls
+  976  cc 04Read.c 
+  977  cd ..
+  978  rm -r C/
+  979  sudo rm -r C/
+  980  ls
+  981  sudo cp -r /mnt/d/CHNMY/C/ .
+  982  cd C/
+  983  ls
+  984  cc -o test 01Header.c 
+  985  ls -s 01Header.c 
+  986  cd ..
+  987  cd DAC0225/
+  988  ls
+  989  cd ShellScripting/
+  990  ls -l
+  991  cd ../../
+  992  cd DAC0825/C/
+  993  ls -l
+  994  sudo chmod a+x 01Header.c 
+  995  cc -o test 01Header.c 
+  996  vi 01Header.c 
+  997  ls -l 01Header.c 
+  998  sudo chmod a+x 01Header.c 
+  999  ls -l 01Header.c 
+ 1000  vi 01Header.c 
+ 1001  ls
+ 1002  cd ..
+ 1003  sudo rm -r C/
+ 1004  mkdir C
+ 1005  cd C/
+ 1006  vi Header.c
+ 1007  cc -o test Header.c 
+ 1008  ./test 
+ 1009  vi Header.c
+ 1010  cc -o test Header.c 
+ 1011  ./test 
+ 1012  vi Header.c
+ 1013  vi PrintName.c
+ 1014  cc -o PrintName PrintName.c
+ 1015  ./PrintName 
+ 1016  vi PrintName.c
+ 1017  cc -o PrintName PrintName.c
+ 1018  ./PrintName 
+ 1019  vi PrintName.c 
+ 1020  cc -o PrintName PrintName.c 
+ 1021  ./PrintName 
+ 1022  vi Read.c
+ 1023  cc -o Read Read.c 
+ 1024  vi Read.c
+ 1025  cc -o Read Read.c 
+ 1026  vi Read.c
+ 1027  cc -o Read Read.c 
+ 1028  ./Read 
+ 1029  vi ReadPrompt.c
+ 1030  cc -o ReadPrompt ReadPrompt.c
+ 1031  ./ReadPrompt 
+ 1032  vi addition.c
+ 1033  cc -o addition addition.c 
+ 1034  ./addition 
+ 1035  vi Swap01.c
+ 1036  cc -o Swap01 Swap01.c 
+ 1037  ./Swap01 
+ 1038  vi Swap02.c
+ 1039  cc -o Swap02 Swap02.c 
+ 1040  ./Swap02 
+ 1041  vi sizeOf.c
+ 1042  cc -o sizeOf sizeOf.c 
+ 1043  vi sizeOf.c
+ 1044  cc -o sizeOf sizeOf.c 
+ 1045  ./sizeOf 
+ 1046  vi sizeOf2.c
+ 1047  cc -o sizeOf2 sizeOf2.c 
+ 1048  ./sizeOf2 
+ 1049  vi sizeOf2.c
+ 1050  cc -o sizeOf2 sizeOf2.c 
+ 1051  vi sizeOf2.c
+ 1052  cc -o sizeOf2 sizeOf2.c 
+ 1053  vi sizeOf2.c
+ 1054  cc -o sizeOf2 sizeOf2.c 
+ 1055  ./sizeOf2 
+ 1056  ls
+ 1057  ls .c*
+ 1058  exit
+ 1059  mkdir DAC0825
+ 1060  cd DAC0825
+ 1061  ls
+ 1062  cd C/
+ 1063  ls
+ 1064  vi interesttest.c
+ 1065  cc -o interesttest interesttest.c 
+ 1066  ./interesttest 
+ 1067  vi interesttest.c
+ 1068  cc -o interesttest interesttest.c 
+ 1069  ./interesttest 
+ 1070  vi interesttest.c
+ 1071  cc -o interesttest interesttest.c 
+ 1072  ./interesttest 
+ 1073  cp interesttest.c interestfuncttest.c
+ 1074  vi interestfuncttest.c 
+ 1075  cc -o interestfuncttest interestfuncttest.c 
+ 1076  ./interestfuncttest 
+ 1077  vi interestfuncttest.c 
+ 1078  vi arraydemotest.c
+ 1079  cc -o arraydemotest arraydemotest.c 
+ 1080  ./arraydemotest 
+ 1081  vi arraydemotest.c
+ 1082  cp arraydemotest.c arraydemotest1.c
+ 1083  vi arraydemotest1.c 
+ 1084  cc -o arraydemotest1 arraydemotest1.c 
+ 1085  ./arraydemotest1 
+ 1086  vi arraydemotest1.c 
+ 1087  cc -o arraydemotest1 arraydemotest1.c 
+ 1088  ./arraydemotest1 
+ 1089  vi arraydemotest1.c 
+ 1090  cc -o arraydemotest1 arraydemotest1.c 
+ 1091  ./arraydemotest1 
+ 1092  vi arraydemotest1.c 
+ 1093  cc -o arraydemotest1 arraydemotest1.c 
+ 1094  vi arraydemotest1.c 
+ 1095  cc -o arraydemotest1 arraydemotest1.c 
+ 1096  ./arraydemotest1 
+ 1097  vi arraydemotest1.c 
+ 1098  cc -o arraydemotest1 arraydemotest1.c 
+ 1099  ./arraydemotest1 
+ 1100  vi primetest.c
+ 1101  cc -o primetest primetest.c 
+ 1102  ./primetest 
+ 1103  vi primetest.c
+ 1104  cc -o primetest primetest.c 
+ 1105  ./primetest 
+ 1106  vi primetest.c
+ 1107  vi primes.h
+ 1108  vi primetest.c
+ 1109  vi primes.c
+ 1110  ls
+ 1111  cc -c primes.c 
+ 1112  cc -c primes.c 
+ 1113  vi primetest.c 
+ 1114  cp primetest.c primemaintest.c
+ 1115  vi primemaintest.c 
+ 1116  cc -o primemaintest primemaintest.c 
+ 1117  vi primemaintest.c 
+ 1118  cc -o primemaintest primemaintest.c 
+ 1119  cc -o primemaintest primemaintest.c primes.o 
+ 1120  ./primemaintest 
+ 1121  vi primemaintest.c 
+ 1122  cc -o primemaintest primemaintest.c primes.o 
+ 1123  ./primemaintest 
+ 1124  vi primemaintest.c 
+ 1125  vi primes.h 
+ 1126  vi primes.c
+ 1127  vi primemaintest.c 
+ 1128  objdump -S primes.o 
+ 1129  vi primes.c 
+ 1130  vi primemaintest.c 
+ 1131  cc -o primemaintest primemaintest.c primes.o
+ 1132  ./primemaintest 
+ 1133  vi primemaintest.c 
+ 1134  cc -o primemaintest primemaintest.c primes.o
+ 1135  ./primemaintest 
+ 1136  exit
+ 1137  cd DAC0825
+ 1138  ls
+ 1139  cd C/
+ 1140  ls
+ 1141  rm Swap01.c 
+ 1142  rm PrintName
+ 1143  rm ReadPrompt
+ 1144  ls
+ 1145  vi structdemotest.c
+ 1146  mkdir 04-09-25
+ 1147  cd 04-09-25/
+ 1148  vi structdemotest.c
+ 1149  cc -o structdemotest structdemotest.c
+ 1150  vi structdemotest.c
+ 1151  cc -o structdemotest structdemotest.c
+ 1152  vi structdemotest.c
+ 1153  cc -o structdemotest structdemotest.c
+ 1154  vi structdemotest.c
+ 1155  cc -o structdemotest structdemotest.c
+ 1156  ./structdemotest 
+ 1157  vi structdemotest.c
+ 1158  cc -o structdemotest structdemotest.c
+ 1159  ./structdemotest 
+ 1160  vi structdemotest.c
+ 1161  cc -o structdemotest structdemotest.c
+ 1162  ./structdemotest 
+ 1163  vi structdemotest.c
+ 1164  cp structdemotest.c structdemotest1.c
+ 1165  vi structdemotest1.c 
+ 1166  cc -o structdemotest1 structdemotest1.c
+ 1167  ./structdemotest1 
+ 1168  vi structdemotest1.c 
+ 1169  cc -o structdemotest1 structdemotest1.c
+ 1170  ./structdemotest1 
+ 1171  vi structdemotest1.c 
+ 1172  cp structdemotest1.c structdemotest3.c
+ 1173  vi structdemotest3.c
+ 1174  cc -o structdemotest3 structdemotest3.c 
+ 1175  ./structdemotest3 
+ 1176  vi structdemotest3.c
+ 1177  cc -o structdemotest3 structdemotest3.c 
+ 1178  ./structdemotest3 
+ 1179  vi structdemotest3.c
+ 1180  vi swaptest.c
+ 1181  cc -o swaptest swaptest.c 
+ 1182  vi swaptest.c
+ 1183  cc -o swaptest swaptest.c 
+ 1184  ./swaptest 
+ 1185  vi swaptest.c
+ 1186  cc -o swaptest swaptest.c 
+ 1187  ./swaptest 
+ 1188  vi swaptest.c
+ 1189  cc -o swaptest swaptest.c 
+ 1190  ./swaptest 
+ 1191  vi swaptest.c
+ 1192  cc -o swaptest swaptest.c 
+ 1193  ./swaptest 
+ 1194  vi swaptest.c
+ 1195  vi pointertest.c
+ 1196  cc -o pointertest pointertest.c 
+ 1197  ./pointertest 
+ 1198  cp pointertest.c pointertest2.c 
+ 1199  vi pointertest2.c 
+ 1200  cp pointertest.c pointertest2.c 
+ 1201  vi pointertest2.c 
+ 1202  cc -o pointertest2 pointertest2.c 
+ 1203  ./pointertest2 
+ 1204  vi pointerarraytest.c
+ 1205  cc -o pointerarraytest pointerarraytest.c 
+ 1206  ./pointerarraytest 
+ 1207  cc -o pointerarraytest pointerarraytest.c 
+ 1208  vi pointerarraytest.c
+ 1209  cc -o pointerarraytest pointerarraytest.c 
+ 1210  ./pointerarraytest 
+ 1211  vi pointerarraytest.c
+ 1212  cc -o pointerarraytest pointerarraytest.c 
+ 1213  ./pointerarraytest 
+ 1214  vi pointerarraytest.c
+ 1215  cc -o pointerarraytest pointerarraytest.c 
+ 1216  ./pointerarraytest 
+ 1217  vi pointerarraytest.c
+ 1218  cc -o pointerarraytest pointerarraytest.c 
+ 1219  ./pointerarraytest 
+ 1220  vi pointerarraytest.c
+ 1221  cc -o pointerarraytest pointerarraytest.c 
+ 1222  ./pointerarraytest 
+ 1223  vi pointerarraytest.c
+ 1224  cc -o pointerarraytest pointerarraytest.c 
+ 1225  ./pointerarraytest 
+ 1226  vi pointerarraytest.c
+ 1227  cc -o pointerarraytest pointerarraytest.c 
+ 1228  ./pointerarraytest 
+ 1229  vi pointerarraytest.c
+ 1230  cc -o pointerarraytest pointerarraytest.c 
+ 1231  vi pointerarraytest.c
+ 1232  ls
+ 1233  vi structdemotest3.c
+ 1234  cp structdemotest3.c structpointerdemo.c
+ 1235  vi structpointerdemo.c 
+ 1236  cc -o structpointerdemo structpointerdemo.c 
+ 1237  ./structpointerdemo 
+ 1238  vi structpointerdemo.c 
+ 1239  cc -o structpointerdemo structpointerdemo.c 
+ 1240  ./structpointerdemo 
+ 1241  vi structpointerdemo.c 
+ 1242  cc -o structpointerdemo structpointerdemo.c 
+ 1243  ./structpointerdemo 
+ 1244  vi structpointerdemo.c 
+ 1245  cc -o structpointerdemo structpointerdemo.c 
+ 1246  vi structpointerdemo.c 
+ 1247  cc -o structpointerdemo structpointerdemo.c 
+ 1248  vi structpointerdemo.c 
+ 1249  cd ..
+ 1250  sudo mkdir /mnt/d/DAC0825
+ 1251  sudo mkdir /mnt/d/DAC0825/C
+ 1252  ls
+ 1253  cp -r 04-09-25 /mnt/d/DAC0825/C/
+ 1254  cd 04-09-25/
+ 1255  exit
+ 1256  vi pointerdemotest.c
+ 1257  cc -o pointerdemotest pointerdemotest.c
+ 1258  ./pointerdemotest 
+ 1259  vi pointerdemotest.c
+ 1260  cc -o pointerdemotest pointerdemotest.c
+ 1261  ./pointerdemotest 
+ 1262  vi pointerdemotest.c
+ 1263  cc -o pointerdemotest pointerdemotest.c
+ 1264  vi pointerdemotest.c
+ 1265  cc -o pointerdemotest pointerdemotest.c
+ 1266  ./pointerdemotest 
+ 1267  vi pointerdemotest.c
+ 1268  cc -o pointerdemotest pointerdemotest.c
+ 1269  ./pointerdemotest 
+ 1270  vi pointerstudentappdemo.c
+ 1271  cc -o pointerstudentappdemo pointerstudentappdemo.c 
+ 1272  vi pointerstudentappdemo.c
+ 1273  cc -o pointerstudentappdemo pointerstudentappdemo.c 
+ 1274  ./pointerstudentappdemo 
+ 1275  vi pointerstudentappdemo.c
+ 1276  cc -o pointerstudentappdemo pointerstudentappdemo.c 
+ 1277  ./pointerstudentappdemo 
+ 1278  cp pointerstudentappdemo.c pointerstudentappdemo1.c 
+ 1279  vi pointerstudentappdemo1.c 
+ 1280  cc -o pointerstudentappdemo1 pointerstudentappdemo1.c 
+ 1281  ./pointerstudentappdemo1 
+ 1282  vi pointerstudentappdemo1.c 
+ 1283  cp pointerstudentappdemo1.c pointerstudentappdemo2.c 
+ 1284  vi pointerstudentappdemo2.c 
+ 1285  cc -o pointerstudentappdemo2 pointerstudentappdemo2.c 
+ 1286  ./pointerstudentappdemo2 
+ 1287  vi pointerstudentappdemo2.c 
+ 1288  cc -o pointerstudentappdemo2 pointerstudentappdemo2.c 
+ 1289  ./pointerstudentappdemo2 
+ 1290  vi pointerstudentappdemo2.c 
+ 1291  cc -o pointerstudentappdemo2 pointerstudentappdemo2.c 
+ 1292  ./pointerstudentappdemo2 
+ 1293  vi pointerstudentappdemo2.c 
+ 1294  cc -o pointerstudentappdemo2 pointerstudentappdemo2.c 
+ 1295  ./pointerstudentappdemo2 
+ 1296  vi pointerstudentappdemo2.c 
+ 1297  cc -o pointerstudentappdemo2 pointerstudentappdemo2.c 
+ 1298  vi pointerstudentappdemo2.c 
+ 1299  vi memoryallocationtest.c
+ 1300  cc -o memoryallocationtest memoryallocationtest.c
+ 1301  vi memoryallocationtest.c
+ 1302  cc -o memoryallocationtest memoryallocationtest.c
+ 1303  ./memoryallocationtest 
+ 1304  vi memoryallocationtest.c
+ 1305  ls
+ 1306  vi pointerstudentappdemo2.c 
+ 1307  cp pointerstudentappdemo2.c pointerstudentappdemo3.c
+ 1308  vi pointerstudentappdemo3.c 
+ 1309  cd ..
+ 1310  cp -r 05-09-25 /mnt/d/DAC0825/C/
+ 1311  ls
+ 1312  ls 05-09-25/
+ 1313  exit
+ 1314  cd DAC0825/C/05-09-25/
+ 1315  ls
+ 1316  vi pointerstudentappdemo3.c 
+ 1317  cc -o pointerstudentappdemo3 pointerstudentappdemo3.c 
+ 1318  ./pointerstudentappdemo3 
+ 1319  vi pointerstudentappdemo3.c 
+ 1320  cc -o pointerstudentappdemo3 pointerstudentappdemo3.c 
+ 1321  vi pointerstudentappdemo3.c 
+ 1322  cc -o pointerstudentappdemo3 pointerstudentappdemo3.c 
+ 1323  ./pointerstudentappdemo3 
+ 1324  vi pointerstudentappdemo3.c 
+ 1325  cp pointerstudentappdemo3.c pointerstudentappdemo4.c
+ 1326  vi pointerstudentappdemo4.c 
+ 1327  cc -o pointerstudentappdemo4 pointerstudentappdemo4.c 
+ 1328  vi pointerstudentappdemo4.c 
+ 1329  cc -o pointerstudentappdemo4 pointerstudentappdemo4.c 
+ 1330  vi pointerstudentappdemo4.c 
+ 1331  cc -o pointerstudentappdemo4 pointerstudentappdemo4.c 
+ 1332  vi pointerstudentappdemo4.c 
+ 1333  cc -o pointerstudentappdemo4 pointerstudentappdemo4.c 
+ 1334  vi pointerstudentappdemo4.c 
+ 1335  cc -o pointerstudentappdemo4 pointerstudentappdemo4.c 
+ 1336  vi pointerstudentappdemo4.c 
+ 1337  cc -o pointerstudentappdemo4 pointerstudentappdemo4.c 
+ 1338  ./pointerstudentappdemo4 
+ 1339  vi pointerstudentappdemo4.c 
+ 1340  cc -o pointerstudentappdemo4 pointerstudentappdemo4.c 
+ 1341  ./pointerstudentappdemo4 
+ 1342  cp pointerstudentappdemo4.c /mnt/d/DAC0825/C/05-09-25/
+ 1343  ls
+ 1344  vi pointerdemotest.c 
+ 1345  vi memoryallocationtest.c 
+ 1346  vi pointerstudentappdemo.c 
+ 1347  vi pointerstudentappdemo1.c 
+ 1348  vi pointerstudentappdemo2.c 
+ 1349  exit
+ 1350  cd dac
+ 1351  cd cdac
+ 1352  ls
+ 1353  cd DAC0825
+ 1354  ls
+ 1355  cd c
+ 1356  cd C
+ 1357  ls
+ 1358  cd..
+ 1359  cd ..
+ 1360  ls
+ 1361  cd ..
+ 1362  ls
+ 1363  cd DAC0825-01
+ 1364  ls
+ 1365  cd C
+ 1366  ls
+ 1367  cd ..
+ 1368  cdc ..
+ 1369  cd ..
+ 1370  cd DAC0825
+ 1371  ls
+ 1372  CdC
+ 1373  cd C
+ 1374  ls
+ 1375  cd 05-09-25
+ 1376  ls
+ 1377  vi pointerstudentappdemo.c
+ 1378  vi pointerstudentappdemo4.c
+ 1379  ls
+ 1380  exit
+ 1381  ls
+ 1382  sudo mv DAC0825 /mnt/d/DAC0825/UbuntuBackup
+ 1383  sudo mv DAC0825-01/ /mnt/d/DAC0825/UbuntuBackup
+ 1384  ls
+ 1385  sudo rm jdk-22/
+ 1386  sudo rm -r jdk-22/
+ 1387  sudo rm -r jdk-24/
+ 1388  sudo rm -r apache-maven-3.9.5/
+ 1389  sudo rm -r nginx/
+ 1390  ls
+ 1391  rm cmd19-04-25evening.txt 
+ 1392  rm test.c 
+ 1393  rm a.out 
+ 1394  ls
+ 1395  ls
+ 1396  rm Dir3/
+ 1397  rm -rDir3/
+ 1398  rm -r Dir3/
+ 1399  ls
+ 1400  exit
+ 1401  exit
+ 1402  exit
+ 1403  cd Test
+ 1404  mv hllcompilertest.cpp compilertest.c
+ 1405  mv hllinterpretortest.py interpretortest.py
+ 1406  rm hllcompilertest.s 
+ 1407  vi compilertest.c 
+ 1408  cc -S compilertest.c 
+ 1409  vi compilertest.c 
+ 1410  cc -S compilertest.c 
+ 1411  ./run compilertest.s
+ 1412  exit
+ 1413  exit
+ 1414  clear
+ 1415  cd Foundations/Basics/
+ 1416  ./run proceduremodtest.s 
+ 1417  ./run proceduremodtest.s dijkstra.o
+ 1418  code branchingdectest.s 
+ 1419  code compilertest.c
+ 1420  cc -S compilertest.c 
+ 1421  ls compilertest.*
+ 1422  vi compilertest.s
+ 1423  as compilertest.s
+ 1424  ld -o program a.out runtime.o 
+ 1425  ./program 
+ 1426  code interpretortest.py
+ 1427  python3 interpretortest.py 
+ 1428  vi compilertest.c
+ 1429  ls
+ 1430  cd ..
+ 1431  ls
+ 1432  history > cmd25-09-25morning.txt
+ 1433  ls
+ 1434  clear
+ 1435  code variabletest.cpp
+ 1436  c++ variabletest.cpp 
+ 1437  ./a.out 
+ 1438  c++ variabletest.cpp 
+ 1439  ./a.out 
+ 1440  c++ variabletest.cpp 
+ 1441  ./a.out 
+ 1442  cp variabletest.cpp arraytest.cpp
+ 1443  code arraytest.cpp 
+ 1444  c++ arraytest.cpp 
+ 1445  ./a.out 
+ 1446  cp variabletest.cpp ifelsetest.cpp
+ 1447  code ifelsetest.cpp 
+ 1448  c++ ifelsetest.cpp 
+ 1449  ./a.out 
+ 1450  code switchtest.cpp
+ 1451  c++ switchtest.cpp 
+ 1452  ./a.out 
+ 1453  cd ..
+ 1454  history > cmd26-09-25morning.txt 
+ 1455  vi cmd26-09-25morning.txt 
+ 1456  cd ..
+ 1457  cp -r Foundations/ /mnt/d/DAC0825
+ 1458  cd Course/Foundations/Modularization/
+ 1459  cp callfunctest.cpp funcovldtest.cpp
+ 1460  code funcovldtest.cpp 
+ 1461  c++ funcovldtest.cpp
+ 1462  ./a.out 
+ 1463  code boxing.h
+ 1464  code boxing.cpp
+ 1465  c++ -c boxing.cpp 
+ 1466  ls boxing.*
+ 1467  code exceptiontest.cpp
+ 1468  c++ exceptiontest.cpp 
+ 1469  c++ exceptiontest.cpp boxing.o
+ 1470  ./a.out 
+ 1471  c++ exceptiontest.cpp boxing.o
+ 1472  ./a.out 
+ 1473  code boxing.cpp 
+ 1474  c++ exceptiontest.cpp boxing.o
+ 1475  ./a.out 
+ 1476  c++ exceptiontest.cpp boxing.o
+ 1477  ./a.out 
+ 1478  c++ exceptiontest.cpp boxing.o
+ 1479  ./a.out 
+ 1480  cd ..
+ 1481  history > cmd27-09-25morning.txt 
