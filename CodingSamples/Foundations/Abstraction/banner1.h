@@ -15,7 +15,7 @@ public: //members declared in this access-control block are visible outside of t
         triangular = false;
     }
 
-    void Resize(float w, float h)
+    void Resize(float w, float h) 
     {
         width = w;
         height = h;
