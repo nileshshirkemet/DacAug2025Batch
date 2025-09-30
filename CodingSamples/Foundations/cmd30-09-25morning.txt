@@ -1,0 +1,29 @@
+    1  clear
+    2  code interval1.h objptrtest.cpp 
+    3  c++ objptrtest.cpp 
+    4  ./a.out 
+    5  c++ objptrtest.cpp 
+    6  ./a.out 
+    7  c++ objptrtest.cpp 
+    8  ./a.out 
+    9  c++ objptrtest.cpp 
+   10  ./a.out 
+   11  c++ objptrtest.cpp 
+   12  ./a.out 
+   13  c++ objptrtest.cpp 
+   14  ./a.out 
+   15  c++ objptrtest.cpp 
+   16  ./a.out 
+   17  c++ objptrtest.cpp 
+   18  ./a.out 
+   19  c++ objptrtest.cpp 
+   20  ./a.out 
+   21  c++ objptrtest.cpp 
+   22  ./a.out 
+   23  c++ objptrtest.cpp 
+   24  cp objptrtest.cpp objreftest.cpp
+   25  code objreftest.cpp 
+   26  c++ objreftest.cpp 
+   27  ./a.out 
+   28  cd ..
+   29  history > cmd30-09-25morning.txt 
