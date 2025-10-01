@@ -1,0 +1,19 @@
+    1  clear
+    2  cd Foundations/Basics/
+    3  ./run proceduremodtest.s 
+    4  ./run proceduremodtest.s dijkstra.o
+    5  code branchingdectest.s 
+    6  code compilertest.c
+    7  cc -S compilertest.c 
+    8  ls compilertest.*
+    9  vi compilertest.s
+   10  as compilertest.s
+   11  ld -o program a.out runtime.o 
+   12  ./program 
+   13  code interpretortest.py
+   14  python3 interpretortest.py 
+   15  vi compilertest.c
+   16  ls
+   17  cd ..
+   18  ls
+   19  history > cmd25-09-25morning.txt

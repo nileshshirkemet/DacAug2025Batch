@@ -1,0 +1,16 @@
+    1  cd Abstraction/
+    2  cd ..
+    3  mkdir Polymorphism
+    4  cd Polymorphism/
+    5  code banners.h
+    6  code derivedclasstest.cpp
+    7  c++ derivedclasstest.cpp 
+    8  ./a.out 
+    9  c++ derivedclasstest.cpp 
+   10  ./a.out 
+   11  c++ derivedclasstest.cpp 
+   12  ./a.out 
+   13  c++ derivedclasstest.cpp 
+   14  ./a.out 
+   15  cd ..
+   16  history > cmd01-10-25evening.txt 
