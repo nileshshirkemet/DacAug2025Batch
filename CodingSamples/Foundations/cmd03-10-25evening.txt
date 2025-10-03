@@ -1,0 +1,15 @@
+    1  cd Foundations/Polymorphism/
+    2  code boards.cpp
+    3  c++ -c boards.cpp 
+    4  code adttest.cpp
+    5  c++ adttest.cpp boards.o
+    6  ./a.out 
+    7  c++ adttest.cpp boards.o
+    8  code boards.h boards.cpp 
+    9  c++ -c boards.cpp
+   10  cp adttest.cpp atdmitest.cpp
+   11  mv atdmitest.cpp adtmitest.cpp
+   12  code adtmitest.cpp 
+   13  mv adtmitest.cpp rttitest.cpp
+   14  cd ..
+   15  history > cmd03-10-25evening.txt 

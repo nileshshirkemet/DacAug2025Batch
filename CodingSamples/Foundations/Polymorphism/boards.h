@@ -27,6 +27,15 @@ namespace Ads
         Substance material;
     };
 
+    class Wasteful
+    {
+    public:
+        virtual double Loss() const = 0;
+        virtual ~Wasteful(){}
+    protected:
+        float scrap;
+    };
+
     //Generalization - is type of inheritance (is-a relationship) in which 
     //the derived class implements pure members of base class which itself 
     //does not support activation
@@ -39,11 +48,14 @@ namespace Ads
         float length, breadth;
     };
 
-    class CircularBoard : public Signboard
+    //Multiple-Inheritance (MI) - a derived class directly inherits
+    //from more than one other class
+    class CircularBoard : public Signboard, public Wasteful
     {
     public:
         CircularBoard(float diameter, Substance medium);
         double Area() const;
+        double Loss() const;
     private:
         float radius;
     };
