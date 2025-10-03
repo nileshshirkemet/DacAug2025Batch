@@ -5,7 +5,7 @@
 //alternative to a pointer type(T*) in function declarations,
 //a reference is automatically initialized with the address of
 //the variable in its required initializer and always automatically
-//indirects to value of that varaible and as such it does not
+//indirects to value of that variable and as such it does not
 //support reinitialization or multiple indirection
 double Speed(float distance, const Interval& period)
 {
