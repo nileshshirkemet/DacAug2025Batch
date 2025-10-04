@@ -1,0 +1,44 @@
+    1  cd ..
+    2  mkdir Advanced
+    3  cd Advanced/
+    4  code functmplttest1.cpp
+    5  c++ functmplttest1.cpp 
+    6  ./a.out 
+    7  c++ functmplttest1.cpp 
+    8  ./a.out 
+    9  c++ functmplttest1.cpp 
+   10  ./a.out 
+   11  cp functmplttest1.cpp functmplttest1.cpp0
+   12  c++ functmplttest1.cpp 
+   13  ./a.out 
+   14  c++ functmplttest1.cpp 
+   15  objdump -t a.out 
+   16  c++ -c functmplttest1.cpp
+   17  objdump -t functmplttest1.o
+   18  rm functmplttest1.o
+   19  objdump -t a.out >> temp.txt
+   20  notepad.exe temp.txt
+   21  rm temp.txt 
+   22  code functmplttest2.cpp
+   23  c++ functmplttest2.cpp 
+   24  ./a.out 
+   25  c++ functmplttest2.cpp 
+   26  ./a.out 
+   27  c++ functmplttest2.cpp 
+   28  ./a.out 
+   29  c++ functmplttest2.cpp 
+   30  ./a.out 
+   31  c++ functmplttest2.cpp 
+   32  ./a.out 
+   33  c++ functmplttest2.cpp 
+   34  ./a.out 
+   35  code classtmplttest1.cpp
+   36  vi functmplttest1.cpp
+   37  c++ classtmplttest1.cpp 
+   38  ./a.out 
+   39  c++ classtmplttest1.cpp 
+   40  ls
+   41  pwd
+   42  cd ..
+   43  ls
+   44  history > cmd04-10-25evening.txt

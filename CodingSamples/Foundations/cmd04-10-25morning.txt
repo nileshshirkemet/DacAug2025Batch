@@ -1,0 +1,27 @@
+    1  cd Foundations/Polymorphism/
+    2  cp adttest.cpp mirttitest.cpp
+    3  code mirttitest.cpp 
+    4  code boards.h
+    5  c++ -c boards.cpp
+    6  c++ mirttitest.cpp boards.o
+    7  ./a.out 
+    8  c++ mirttitest.cpp boards.o
+    9  ./a.out 
+   10  c++ mirttitest.cpp boards.o
+   11  ./a.out 
+   12  c++ mirttitest.cpp boards.o
+   13  ./a.out 
+   14  code mivitest.cpp
+   15  cp adttest.cpp mivitest.cpp
+   16  code mivitest.cpp 
+   17  c++ mivitest.cpp boards.o
+   18  ./a.out 
+   19  c++ mivitest.cpp boards.o
+   20  code boards.h
+   21  c++ -c boards.cpp
+   22  c++ mivitest.cpp boards.o
+   23  ./a.out 
+   24  c++ mivitest.cpp boards.o
+   25  ./a.out 
+   26  cd ..
+   27  history >cmd04-10-25morning.txt 
