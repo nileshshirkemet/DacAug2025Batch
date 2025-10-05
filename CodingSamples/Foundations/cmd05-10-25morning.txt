@@ -1,0 +1,27 @@
+    1  clear
+    2  cd Foundations/Advanced/
+    3  code classtmplttest2.cpp 
+    4  c++ classtmplttest2.cpp 
+    5  ./a.out 
+    6  cp ../Abstraction/interval2.h interval.h
+    7  code interval.h 
+    8  ls
+    9  rm interval1.h 
+   10  c++ classtmplttest2.cpp 
+   11  ./a.out 
+   12  c++ classtmplttest2.cpp 
+   13  ./a.out 
+   14  c++ classtmplttest2.cpp 
+   15  ./a.out 
+   16  c++ classtmplttest2.cpp 
+   17  ./a.out 
+   18  code generictest.cpp
+   19  c++ generictest.cpp 
+   20  ./a.out 
+   21  c++ generictest.cpp 
+   22  ./a.out 
+   23  c++ generictest.cpp 
+   24  ./a.out 
+   25  cd ..
+   26  ls
+   27  history >cmd05-10-25morning.txt 
