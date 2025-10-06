@@ -1,0 +1,26 @@
+    1  clear
+    2  cd Advanced/
+    3  clear
+    4  mv generictest.cpp genericctnrtest.cpp
+    5  code genericctnrtest.cpp 
+    6  c++ genericctnrtest.cpp 
+    7  ./a.out 
+    8  c++ genericctnrtest.cpp 
+    9  ./a.out 
+   10  cp genericctnrtest.cpp genericalgotest.cpp 
+   11  code genericalgotest.cpp 
+   12  c++ genericalgotest.cpp 
+   13  ./a.out 
+   14  c++ genericalgotest.cpp 
+   15  ./a.out 
+   16  c++ genericalgotest.cpp 
+   17  ./a.out 
+   18  code functionaltest.cpp
+   19  c++ functionaltest.cpp 
+   20  c++ functionaltest.cpp -std=c++20
+   21  ./a.out 
+   22  c++ functionaltest.cpp -std=c++20
+   23  ./a.out 
+   24  cd ..
+   25  ls
+   26  history > cmd06-10-25morning.txt
