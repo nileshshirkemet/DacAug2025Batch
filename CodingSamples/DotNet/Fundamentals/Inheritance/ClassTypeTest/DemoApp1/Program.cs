@@ -9,9 +9,9 @@ class Program
         return i > 10000 ? 0.15 * (i - 10000) : 0;
     }
 
-    static double Bonus(Employee emp)
+    static double Bonus(Employee? emp)
     {
-        if(emp is SalesPerson)
+        if(emp == null || emp is SalesPerson)
             return 0;
         return 0.12 * emp.Income();
     }
@@ -24,6 +24,7 @@ class Program
         Console.WriteLine("Jack's Income is {0:0.00}, Tax is {1:0.00} and Bonus is {2:0.00}", jack.Income(), Tax(jack), Bonus(jack));
         SalesPerson jill = new SalesPerson(184, 53, 62000);
         Console.WriteLine("Jill's Income is {0:0.00}, Tax is {1:0.00} and Bonus is {2:0.00}", jill.Income(), Tax(jill), Bonus(jill));
-        Tax(null);
+        //Tax(null);
+        Bonus(null);
     }
 }
