@@ -1,0 +1,13 @@
+    1  dotnet run 200000 5
+    2  cd Fundamentals/Basics/UserDefTypeTest/DemoApp2/
+    3  dotnet run 200000 5
+    4  dotnet run 25000 12
+    5  dotnet run 25000 5
+    6  dotnet run 200000 5
+    7  dotnet run 300000 5
+    8  cd ../..
+    9  cd ..
+   10  mkdir Inheritance
+   11  cd Inheritance/
+   12  cd ..
+   13  history > cmd08-10-25evening.txt 
