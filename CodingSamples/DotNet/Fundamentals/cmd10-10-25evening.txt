@@ -1,0 +1,13 @@
+    1  vi cmd10-10-25morning.txt 
+    2  cd..
+    3  cd ..
+    4  clear
+    5  cd Fundamentals/Inheritance/InterfaceTypeTest/
+    6  cd DemoApp1/
+    7  dotnet run 
+    8  dotnet run 7000
+    9  dotnet run 17000
+   10  dotnet run 7000
+   11  cd ..
+   12  ls
+   13  history > cmd10-10-25evening.txt 

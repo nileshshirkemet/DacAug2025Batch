@@ -1,0 +1,10 @@
+    1  cd InterfaceTypeTest/DemoApp1/
+    2  code ..
+    3  dotnet run 7000
+    4  dotnet run 17000
+    5  dotnet run 14OOO
+    6  dotnet run
+    7  rm -r bin
+    8  rm -r obj
+    9  cd ../../..
+   10  history > cmd11-10-25morning.txt
