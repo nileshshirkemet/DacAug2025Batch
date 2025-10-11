@@ -1,0 +1,35 @@
+﻿using Taxation;
+
+class Program
+{
+    static void DoAuditing(string name, int count)
+    {
+        var a = new Auditor();
+        try
+        {
+            if(count <= 10)
+                a.Audit(name, new Supervisor(count));
+            else
+                a.Audit(name, new Worker(count));
+        }
+        finally
+        {
+            a.Dispose();
+        }
+    }
+
+
+    static void Main(string[] args)
+    {
+        try
+        {
+            string m = args[0].ToUpper();
+            int n = int.Parse(args[1]);
+            DoAuditing(m, n);
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine("Error: {0}", ex.Message);
+        }
+    }
+}
