@@ -1,0 +1,32 @@
+    1  cd ..
+    2  clear
+    3  mkdir -p DotNet/Fundamentals/Basics
+    4  cd DotNet/Fundamentals/Basics
+    5  ls
+    6  dotnet --version
+    7  dotnet --list-runtimes
+    8  vi Hello.il
+    9  dotnet ilasm -dll Hello.il 
+   10  ls
+   11  vi Hello.il
+   12  vi Hello.runtimeconfig.json
+   13  dotnet Hello.dll
+   14  vi Hello.il
+   15  dotnet ilasm -quiet -dll Hello.il 
+   16  vi Hello.runtimeconfig.json
+   17  uname -m
+   18  ssh unipro@linuxarm.km-hussain.xyz
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd ..
+   23  ls
+   24  cd Fundamentals/
+   25  history > cmd07-10-2025morning.txt
+   26  vi cmd07-10-2025morning.txt 
+   27  cd ..
+   28  cp -r Fundamentals/ /mnt/d/DAC0825/DotNet/
+   29  cd Fundamentals/
+   30  cd Basics/
+   31  cd ..
+   32  history > cmd07-10-2025morning.txt
