@@ -1,0 +1,30 @@
+    1  cd Fundamentals/
+    2  ls
+    3  mkdir Generic
+    4  cd Generic/
+    5  mkdir TypeParamTest
+    6  cd TypeParamTest/
+    7  dotnet new console -n DemoApp -o DemoApp1
+    8  cd DemoApp1/
+    9  code .
+   10  dotnet run
+   11  dotnet run abc
+   12  dotnet run 87
+   13  dotnet run 78
+   14  dotnet run
+   15  dotnet run 87
+   16  dotnet run
+   17  dotnet run 78
+   18  dotnet ildasm ./bin/Debug/net9.0/DemoApp.dll > Program.il
+   19  dotnet run 78
+   20  dotnet run 97
+   21  dotnet run
+   22  dotnet ildasm ./bin/Debug/net9.0/DemoApp.dll > Program.il
+   23  code .
+   24  dotnet run 87
+   25  dotnet run 78
+   26  rm -r obj bin 
+   27  ls
+   28  cd ../../../
+   29  ls
+   30  history > cmd13-10-25morning.txt
