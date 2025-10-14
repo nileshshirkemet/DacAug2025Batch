@@ -1,0 +1,22 @@
+    1  clear
+    2  cd Fundamentals/Generic/
+    3  ls
+    4  mkdir EnumerableTest
+    5  cd EnumerableTest/
+    6  dotnet new console -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  cp ../../TypeParamTest/DemoApp2/Interval.cs .
+    9  cp ../../TypeParamTest/DemoApp2/Program.cs1 Program.cs 
+   10  cp ../../TypeParamTest/DemoApp2/Program.cs1 Program.cs .
+   11  ls
+   12  cp ../../TypeParamTest/DemoApp2/Program.cs1 Program.cs
+   13  cp ../../TypeParamTest/DemoApp2/Progra.cs0 Program.cs 
+   14  cp ../../TypeParamTest/DemoApp2/Program.cs0 Program.cs 
+   15  cp -r ../../TypeParamTest/DemoApp2/Common/ .
+   16  code .
+   17  dotnet run
+   18  rm -r bin obj
+   19  ls
+   20  cd ../../../
+   21  ls
+   22  history >cmd14-10-25morning.txt

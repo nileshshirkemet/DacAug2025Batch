@@ -1,0 +1,24 @@
+    1  cd Fundamentals/Generic/
+    2  cd TypeParamTest/DemoApp1/
+    3  code .
+    4  dotnet run 87
+    5  dotnet run 78
+    6  dotnet run
+    7  ildasm bin/Debug/net9.0/DemoApp.dll >> Program.il
+    8  dotnet ildasm bin/Debug/net9.0/DemoApp.dll >> Program.il
+    9  cp ../../../Inheritance/ClassTypeTest/DemoApp2/Interval.cs .
+   10  dotnet run 87
+   11  dotnet run 78
+   12  dotnet run 87
+   13  dotnet run'
+   14  dotnet run
+   15  cd ..
+   16  dotnet new console -n DemoApp -o DemoApp2
+   17  cd DemoApp2/
+   18  code .
+   19  dotnet run
+   20  cp ../DemoApp1/Interval.cs .
+   21  dotnet run
+   22  cd ../../../
+   23  ls
+   24  history >cmd13-10-25evening.txt
