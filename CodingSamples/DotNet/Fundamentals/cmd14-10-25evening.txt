@@ -1,0 +1,29 @@
+    1  cd ..
+    2  dotnet new console -n DemoApp -o DemoApp2
+    3  cd DemoApp2/
+    4  cp ../DemoApp1/Interval.cs .
+    5  code .
+    6  dotnet run
+    7  dotnet run friday
+    8  dotnet run monday
+    9  dotnet run wednesday
+   10  dotnet run sunday
+   11  dotnet run monday
+   12  dotnet run sunday
+   13  dotnet run monday
+   14  dotnet run sunday
+   15  dotnet run monday
+   16  dotnet run sunday
+   17  dotnet run 
+   18  cd ../..
+   19  cd ..
+   20  mkdir Functional
+   21  cd Functional/
+   22  vi ~/Course/Foundations/Modularization/funcptrtest.cpp
+   23  vi ~/Course/Foundations/Modularization/funcptrtest.cpp0
+   24  vi ~/Course/Foundations/Modularization/funcptrtest.cpp
+   25  ls
+   26  cd ..
+   27  ls
+   28  cd ..
+   29  history > cmd14-10-25evening.txt
