@@ -1,0 +1,43 @@
+<Suppliers>
+    <Supplier Id="Carter">
+        <Component>cpu</Component>
+        <Credit>500000</Credit>
+		<Stock>350</Stock>
+    </Supplier>
+    <Supplier Id="Diana">
+        <Component>mouse</Component>
+        <Credit>75000</Credit>
+		<Stock>800</Stock>
+    </Supplier>
+    <Supplier Id="Alex">
+        <Component>motherboard</Component>
+        <Credit>300000</Credit>
+		<Stock>200</Stock>
+    </Supplier>
+    <Supplier Id="Fiona">
+        <Component>cpu</Component>
+        <Credit>400000</Credit>
+		<Stock>250</Stock>
+    </Supplier>
+    <Supplier Id="Ellison">
+        <Component>keyboard</Component>
+        <Credit>60000</Credit>
+		<Stock>950</Stock>
+    </Supplier>
+    <Supplier Id="Helena">
+        <Component>monitor</Component>
+        <Credit>120000</Credit>
+		<Stock>50</Stock>
+    </Supplier>
+    <Supplier Id="George">
+        <Component>cpu</Component>
+        <Credit>375000</Credit>
+		<Stock>125</Stock>
+    </Supplier>
+    <Supplier Id="Bella">
+        <Component>motherboard</Component>
+        <Credit>150000</Credit>
+		<Stock>650</Stock>
+    </Supplier>
+</Suppliers>
+
