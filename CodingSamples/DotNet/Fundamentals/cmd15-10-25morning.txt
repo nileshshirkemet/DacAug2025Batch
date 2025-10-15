@@ -1,0 +1,45 @@
+    1  cd Fundamentals/Functional/
+    2  ls
+    3  mkdir DelegateTest
+    4  ls
+    5  mkdir DelegateTest
+    6  mkdir temp
+    7  cd ..
+    8  mkdir DelegateTest
+    9  cd ..
+   10  mkdir DelegateTest
+   11  rm -r DelegateTest/
+   12  ls
+   13  ll
+   14  sudo chown cdac DotNet
+   15  sudo chown cdac Fundamentals/
+   16  cd Fundamentals/
+   17  ls
+   18  ll
+   19  sudo chown cdac *
+   20  ll
+   21  cd Functional/
+   22  ls
+   23  mkdir DelegateTest
+   24  cd DelegateTest/
+   25  ls
+   26  dotnet new console -n DemoApp
+   27  cd DemoApp/
+   28  ls
+   29  code .
+   30  ls
+   31  code .
+   32  dotnet build
+   33  dotnet run 80000 6
+   34  dotnet ildasm bin/Debug/net9.0/DemoApp.dll 
+   35  dotnet run 80000 6
+   36  cp ~/Course/Foundations/Advanced/functionaltest.cpp 
+   37  vi ~/Course/Foundations/Advanced/functionaltest.cpp 
+   38  ls
+   39  rm bin/ obj/
+   40  rm -r bin/ obj/
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd ..
+   45  history > cmd15-10-25morning.txt 
