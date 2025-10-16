@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Met.Bank.Financing</PackageId>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+
+</Project>
+
+<!--
+  dotnet pack 
+  compiles this project and packages the compiled
+  assembly into a compressed archive known as a
+  'nuget package' which can be referenced by other
+  projects
+-->

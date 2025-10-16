@@ -1,0 +1,48 @@
+    1  cd Runtime/ReflectionTest/DemoApp2/
+    2  ls
+    3  code .
+    4  dotnet run 2000000 EducationLoan
+    5  dotnet run 2000000 PersonalLoan
+    6  dotnet run 2000000 HomeLoan
+    7  dotnet run 2000000 CarLoan
+    8  code .
+    9  dotnet run 2000000 EducationLoan
+   10  dotnet run 2000000 PersonaLoan
+   11  dotnet run 2000000 PersonalLoan
+   12  dotnet run 2000000 HomeLoan
+   13  dotnet run 2000000 CarLoan
+   14  dotnet run 2000000 HomeLoan
+   15  dotnet run 2000000 EducationLoan Common
+   16  dotnet run 2000000 EducationLoan Scholar
+   17  dotnet run 2000000 PersonalLoan Common
+   18  dotnet run 2000000 PersonalLoan Employee
+   19  dotnet run 2000000 HomeLoan Common
+   20  dotnet run 2000000 HomeLoan Woman
+   21  dotnet run 2000000 HomeLoan Welfare
+   22  cd ..
+   23  cd BankFinLib/
+   24  code .
+   25  dotnet pack
+   26  ls bin/Release/
+   27  cd ../DemoApp2
+   28  ls
+   29  code .
+   30  dotnet run 2000000 CarLoan Common
+   31  dotnet restore
+   32  dotnet restore -s ../BankFinLib/bin/Release/
+   33  dotnet build
+   34  dotnet run 2000000 CarLoan Common
+   35  dotnet run 2000000 CarLoan Employee
+   36  rm -r bin/ obj/
+   37  ls
+   38  cd ..
+   39  cd DemoApp1/
+   40  rm -r bin/ obj/
+   41  cd ..
+   42  ls
+   43  ls BankFinLib/
+   44  rm -r BankFinLib/bin/ BankFinLib/obj/
+   45  ls BankFinLib/
+   46  cd ..
+   47  cd Fundamentals/
+   48  history > cmd16-10-25evening.txt 

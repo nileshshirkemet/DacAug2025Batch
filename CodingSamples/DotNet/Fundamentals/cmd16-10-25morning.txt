@@ -1,0 +1,36 @@
+    1  cd Fundamentals/
+    2  mkdir Runtime
+    3  cd Runtime/
+    4  mkdir ReflectionTest
+    5  cd ReflectionTest/
+    6  dotnet new console -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  cp ../../../Functional/LinqTest/DemoApp1/Shop.cs .
+    9  code .
+   10  ls
+   11  code .
+   12  rm Program.cs 
+   13  code .
+   14  ll
+   15  dotnet run
+   16  cd ..
+   17  dotnet new classlib -n BankFinLib
+   18  cd BankFinLib/
+   19  code .
+   20  dotnet pack
+   21  jar -t -f bin/Release/Met.Bank.Financing.1.0.0.nupkg 
+   22  java --version
+   23  vi ~/.bashrc 
+   24  cd ..
+   25  dotnet new console -n DemoApp -o DemoApp1
+   26  dotnet new consoOCle -n DemoApp -o DemoApp2
+   27  dotnet new console -n DemoApp -o DemoApp2
+   28  cd DemoApp2/
+   29  code .
+   30  dotnet restore -s ../BankFinLib/bin/Release/
+   31  dotnet build
+   32  rm -r bin obj
+   33  ls
+   34  cd ../../../
+   35  ls
+   36  history >cmd16-10-25morning.txt
