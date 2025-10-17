@@ -1,0 +1,37 @@
+    1  cd ReflectionTest/
+    2  code BankFinLib/
+    3  cd BankFinLib/
+    4  ls bin/Debug/net9.0/
+    5  dotnet build
+    6  dotnet ildasm bin/Debug/net9.0/BankFinLib.dll 
+    7  dotnet pack
+    8  ls bin/Release/
+    9  cd ../DemoApp2/
+   10  code .
+   11  dotnet restore -s ../BankFinLib/bin/Release/
+   12  dotnet build
+   13  dotnet run 2000000 EducationLoan Common
+   14  dotnet run 2000000 EducationLoan Scholar
+   15  dotnet run 2000000 HomeLoan Woman
+   16  dotnet run 2000000 HomeLoan Welfare
+   17  dotnet run 2000000 PersonalLoan Common
+   18  dotnet run 2000000 CarLoan Common
+   19  dotnet run 2000000 CarLoan Common\]
+   20  dotnet run 2000000 CarLoan Common
+   21  cd ~/Course/Foundations/Basics/
+   22  ls
+   23  ld -shared -o libdijkstra.so dijkstra.o
+   24  ll
+   25  vi dynlnktest.py
+   26  python3 dynlnktest.py 
+   27  vi dynlnktest.py
+   28  python3 dynlnktest.py 
+   29  pwd 
+   30  ls
+   31  cp libdijkstra.so /mnt/d/DAC0825/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/
+   32  cp libdijkstra.so /mnt/d/DAC0825/DotNet/Fundamentals/Runtime/ReflectionTest/
+   42  cp dijkstra.o ~/Course/DotNet/Fundamentals/Runtime/ReflectionTest/
+   43  cp libdijkstra.so ~/Course/DotNet/Fundamentals/Runtime/ReflectionTest/
+   44  cd ~/Course/DotNet/Fundamentals/Runtime/ReflectionTest/
+   47  cd Fundamentals/
+   48  history > cmd17-10-25morning.txt 

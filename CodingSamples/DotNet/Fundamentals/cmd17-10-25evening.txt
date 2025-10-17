@@ -1,0 +1,15 @@
+    1  ls
+    2  clear
+    3  cd ..
+    4  mkdir PInvokeTest
+    5  cd PInvokeTest/
+    6  dotnet new console --use-program-main -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  code .
+    9  wget -qO- iitdac.met.edu/shared/native/legacy/x64/asset.tar.gz | tar x
+   10  ls
+   11  dotnet run native/libddb.so 
+   12  dotnet run native/libsyd.so 
+   13  pwd
+   14  cd ../../../
+   15  history > cmd17-10-25evening.txt 

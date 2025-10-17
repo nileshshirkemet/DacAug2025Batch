@@ -1,0 +1,17 @@
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/bin/Debug/net9.0/DemoApp
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/bin/Debug/net9.0/DemoApp.deps.json
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/bin/Debug/net9.0/DemoApp.runtimeconfig.json
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/bin/Debug/net9.0/DemoApp.dll
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/bin/Debug/net9.0/DemoApp.pdb
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/bin/Debug/net9.0/BankFinLib.dll
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.csproj.AssemblyReference.cache
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.AssemblyInfoInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.AssemblyInfo.cs
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.csproj.CoreCompileInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.csproj.Up2Date
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.dll
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/refint/DemoApp.dll
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.pdb
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/DemoApp.genruntimeconfig.cache
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/Debug/net9.0/ref/DemoApp.dll

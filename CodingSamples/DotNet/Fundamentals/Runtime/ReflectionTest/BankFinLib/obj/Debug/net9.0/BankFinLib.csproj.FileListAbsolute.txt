@@ -1,0 +1,11 @@
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/bin/Debug/net9.0/BankFinLib.deps.json
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/bin/Debug/net9.0/BankFinLib.dll
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/bin/Debug/net9.0/BankFinLib.pdb
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/BankFinLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/BankFinLib.AssemblyInfoInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/BankFinLib.AssemblyInfo.cs
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/BankFinLib.csproj.CoreCompileInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/BankFinLib.dll
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/refint/BankFinLib.dll
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/BankFinLib.pdb
+/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/BankFinLib/obj/Debug/net9.0/ref/BankFinLib.dll
