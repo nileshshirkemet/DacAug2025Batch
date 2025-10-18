@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- support ahead-of-time compilation -->
+    <PublishAot>true</PublishAot>
+    <AssemblyName>libBankInv</AssemblyName>
+  </PropertyGroup>
+
+</Project>
+
+<!--
+dotnet publish -r linux-x64 | windows-x64 | linux-arm64 | windows-arm64 | macos-arm64
+publishes native library using AOT compilation for referenced target (-r)
+-->
