@@ -1,0 +1,24 @@
+    1  cd ..
+    2  dotnet new console --use-program-main -n DemoApp -o DemoApp2
+    3  cd DemoApp
+    4  cd DemoApp2
+    5  ls
+    6  dotnet build
+    7  cp ~/Course/Foundations/Basics/libdijkstra.so bin/Debug/net9.0/
+    8  code .
+    9  dotnet run gcd 48 72
+   10  dotnet run gcd 7999992 6999993
+   11  wget -qO- iitdac.met.edu/shared/native/legacy/x64/primes.tar.gz | tar x
+   12  dotnet run primes 100 4
+   13  dotnet run primes 100 6
+   14  dotnet run primes 100 4
+   15  dotnet run primes 100 6
+   16  cd ..
+   17  dotnet new classlib -n BankInvLib
+   18  cd BankInvLib/
+   19  ls
+   20  code .
+   21  dotnet publish -r linux-x64
+   22  ls bin/Release/net9.0/linux-x64/publish/
+   23  python3 Program.py 50000 12
+   24  history > cmd18-10-25morning.txt
