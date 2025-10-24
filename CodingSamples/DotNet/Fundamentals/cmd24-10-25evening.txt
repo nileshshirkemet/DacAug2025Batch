@@ -1,0 +1,9 @@
+    1  clear
+    2  cd Fundamentals/Concurrency/ThreadingTest/
+    3  ls
+    4  dotnet new console -n DemoApp -o DemoApp2
+    5  cd DemoApp2/
+    6  code .
+    7  dotnet run
+    8  cd ..
+    9  history >cmd24-10-25evening.txt 

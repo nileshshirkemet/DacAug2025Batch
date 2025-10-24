@@ -1,0 +1,22 @@
+namespace DemoApp;
+
+class JointAccount
+{
+    public int Balance { get; private set; }
+
+    public bool Debit(int amount)
+    {
+        bool success = false;
+        if(Balance >= amount)
+        {
+            Balance = Activity.Perform(Balance, amount, -1);
+            success = true;
+        }
+        return success;
+    }
+
+    public void Credit(int amount)
+    {
+        Balance = Activity.Perform(Balance, amount, 1);
+    }
+}
