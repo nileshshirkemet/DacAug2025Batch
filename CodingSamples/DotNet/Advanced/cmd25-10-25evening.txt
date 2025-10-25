@@ -1,0 +1,21 @@
+    1  mkdir -p Advanced/Networking/TcpServerTest
+    2  cd Advanced/Networking/TcpServerTest
+    3  dotnet new console -n DemoApp -o DemoApp1
+    4  cd DemoApp1/
+    5  code .
+    6  netstat -pnlt
+    7  nc localhost 4010
+    8  dotnet run
+    9  nc localhost 4010
+   10  wget -q iitdac.met.edu/shared/dotnet/EviTek.store
+   11  nc localhost 4010
+   12  cd ..
+   13  ls
+   14  cd Advanced 
+   15  cd ..
+   16  ls
+   17  cd Fundamentals/
+   18  ls
+   19  cd ..
+   20  cd Advanced
+   21  history >cmd25-10-25evening.txt
