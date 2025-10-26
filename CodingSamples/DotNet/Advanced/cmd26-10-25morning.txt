@@ -1,0 +1,29 @@
+    1  clear
+    2  cd Advanced/Networking/TcpServerTest/DemoApp1/
+    3  nc 192.168.1.90 4010
+    4  nc localhost 4010
+    5  cd ..
+    6  dotnet new console -n DemoApp -o DemoApp2
+    7  cd DemoApp2
+    8  cp -r ../DemoApp1/Models/ .
+    9  cp -r ../DemoApp1/EviTek.store .
+   10* 
+   11  code .
+   12  dotnet run
+   13* dotnet run --Listener:Port 401
+   14  dotnet run
+   15  netstat -pnlt
+   16  nc localhost 4010
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd Fundamentals/
+   23  ls
+   24  cp cmd25-10-25morning.txt ../Advanced/
+   25  ls
+   26  cd ..
+   27  ls
+   28  cd Advanced/
+   29  history >cmd26-10-25morning.txt 

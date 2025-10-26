@@ -4,7 +4,7 @@ using DemoApp.Models;
 
 namespace DemoApp;
 
-class ShopServer(ShopModel model)
+class ShopServer(IShopKeeper model)
 {
     public void Run()
     {
@@ -15,7 +15,8 @@ class ShopServer(ShopModel model)
         {
             //Step 2
             var client = listener.AcceptTcpClient();
-            CommunicateWith(client);
+            //CommunicateWith(client);
+            new Thread(() => CommunicateWith(client)).Start();
         }
     }
 
