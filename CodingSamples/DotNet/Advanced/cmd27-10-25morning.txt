@@ -1,0 +1,16 @@
+    1  cd Course/DotNet/Advanced/Networking/
+    2  ls
+    3  mkdir TcpClientTest'
+    4  mkdir TcpClientTest
+    5  cd Tcp
+    6  cd TcpClientTest/
+    7  dotnet new console -n DemoApp -o DemoApp1
+    8  cd DemoApp1/
+    9  ls
+   10  code .
+   11  dotnet run cpu 4 localhost
+   12  dotnet run mouse 400 localhost
+   13  dotnet run mouse 40 localhost
+   14  dotnet run printer 2 localhost
+   15  cd ..
+   16  history >cmd27-10-25morning.txt 
