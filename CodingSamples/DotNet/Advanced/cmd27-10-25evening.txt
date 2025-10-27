@@ -1,0 +1,63 @@
+    1  clear
+    2  cd Networking/
+    3  ls
+    4  cd TcpClientTest/
+    5  cp -r DemoApp1/ DemoApp2
+    6  cd DemoApp2
+    7  code .
+    8  dotnet run cpu 4 iitdac.met.edu
+    9  dotnet run mouse 10 iitdac.met.edu
+   10  dotnet run mouse 1000 iitdac.met.edu
+   11  dotnet run printer 2 iitdac.met.edu
+   12  dotnet run printer 2 met.hussain.in
+   13  cd ../..
+   14  cd ..
+   15  mkdir ADO.NET
+   16  cd ADO.NET/
+   17  mkdir ExecSqlTest
+   18  cd ExecSqlTest/
+   19  dotnet new console -n DemoApp -o DemoApp1
+   20  cd DemoApp1/
+   21  wget -q iitdac.met.edu/shared/data/shop.db
+   22  ls
+   23  sqlite3 shop.db 
+   24  dotnet add package Microsoft.Data.Sqlite
+   25  code .
+   26  dotnet run
+   27  dotnet run CU103
+   28  dotnet run
+   29  dotnet run CU105
+   30  dotnet run "';update CustomerInfo set Credit=1000000"
+   31  dotnet run "';update CustomerInfo set Credit=1000000 WHERE USerName='"
+   32  dotnet run
+   33  dotnet run "';update CustomerInfo set Credit=1000000 WHERE USerName !='"
+   34  dotnet run
+   35  wget -q iitdac.met.edu/shared/data/shop.db
+   36  dotnet run
+   37  rm shop.db
+   38  ls
+   39  rm shop.db.1 
+   40  wget -q iitdac.met.edu/shared/data/shop.db
+   41  dotnet run
+   42  dotnet run CU103
+   43  dotnet run
+   44  dotnet run "';update CustomerInfo set Credit=1000000 WHERE USerName !='"
+   45  dotnet run
+   46  cd ..
+   47  wget -q iitdac.met.edu/shared/dotnet/dbproviders.txt
+   48  ls
+   49  wget -q iitdac.met.edu/shared/dotnet/dbprovider.txt
+   50  ls
+   51  wget -q iitdac.met.edu/shared/dota/dbprovider.txt
+   52  wget -q iitdac.met.edu/shared/data/dbprovider.txt
+   53  ls
+   54  wget -q iitdac.met.edu/shared/data/dbproviders.txt
+   55  ls
+   56  wget -q iitdac.met.edu/shared/data/dbprov.txt
+   57  ls
+   58  wget -q iitdac.met.edu/shared/dotnet/dbprov.txt
+   59  ls
+   60  vi dbprov.txt 
+   61  cd ..
+   62  ls
+   63  history > cmd27-10-25evening.txt 
