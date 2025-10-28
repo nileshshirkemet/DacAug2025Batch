@@ -1,0 +1,47 @@
+    1  cd ..
+    2  mkdir EFCore
+    3  cd EFCore/
+    4  mkdir ConventionsTest
+    5  cd ConventionsTest/
+    6  dotnet new console -o DemoApp
+    7  cd DemoApp/
+    8  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+    9  code .
+   10  ls
+   11  dotnet run
+   12  ls
+   13  dotnet run
+   14  ls
+   15  sqlite3 site.db 
+   16  dotnet run Saurabh
+   17  dotnet run Ayush
+   18  dotnet run Chanchal
+   19  dotnet run Raj
+   20  dotnet run Ayush
+   21  dotnet run
+   22  rm site.db 
+   23  dotnet run Saurabh
+   24  dotnet run Ayush
+   25  dotnet run Chanchal
+   26  dotnet run Saurabh
+   27  dotnet run Raj
+   28  dotnet run
+   29  rm site.db 
+   30  dotnet run Saurabh
+   31  dotnet run
+   32  dotnet run Ayush
+   33  dotnet run Raj
+   34  dotnet run Chanchal
+   35  dotnet run Saurabh
+   36  dotnet run
+   37  sqlite3 site.db 
+   38  rm -r obj/
+   39  rm -r bin/
+   40  pwd
+   41  cd ..
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd ..
+   46  ls
+   48  history > cmd28-10-25evening.txt 
