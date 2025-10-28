@@ -1,0 +1,37 @@
+    1  ls
+    2  cd Ad
+    3  cd ADO.NET/
+    4  ls
+    5  cd ExecSqlTest/
+    6  dotnet new console -n DemoApp -o DemoApp2
+    7  cd DemoApp2/
+    8  cd ..
+    9  wget -q iitdac.met.edu/shared/data/shopms.sql
+   10  ls
+   11  vi shopms.sql 
+   12  cd DemoApp2/
+   13  code .
+   14  dotnet add package Microsoft.Data.SqlClient
+   15  dotnet run
+   16  dotnet run CU204 103 15
+   17  dotnet run CU204 203 15
+   18  dotnet run CU206 201 16
+   19  dotnet run CU203 201 16
+   20  vi ../shopms.sql 
+   21  cd ../..
+   22  ls
+   23  mkdir StoredProcTest
+   24  cd StoredProcTest/
+   25  dotnet new console -n DemoApp
+   26  cd DemoApp/
+   27  code .
+   28  dotnet add package Microsoft.Data.SqlClient
+   29  vi ../shopms.sql 
+   30  vi ../../shopms.sql 
+   31  pwd
+   32  vi ../../ExecSqlTest/shopms.sql 
+   33  dotnet run CU201 205 25
+   34  dotnet run CU202 206 18
+   35  dotnet run CU202 202 18
+   36  cd ../../../
+   37  history > cmd28-10-25morning.txt 
