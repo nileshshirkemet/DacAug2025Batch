@@ -1,0 +1,52 @@
+    1  cd Course/DotNet/Advanced/EFCore/
+    2  ls
+    3  mkdir ConfigurationTest
+    4  cd ConfigurationTest/
+    5  ls
+    6  dotnet new console -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  code .
+    9  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   10  dotnet run
+   11  dotnet run CU201
+   12  dotnet run CU208
+   13  dotnet run CU201
+   14  cd ..
+   15  wget -qO- iitdac.met.edu/shared/dotnet/Sales.tar.gz | tar x
+   16  cd Sales/
+   17  code .
+   18  cd ..
+   19  dotnet new console -n DemoApp -o DemoApp2
+   20  cd DemoApp2
+   21  cp ../../../ADO.NET/ExecSqlTest/DemoApp1/shop.db .
+   22  dotnet add reference ../Sales/
+   23  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   24  code .
+   25  dotnet build
+   26  dotnet run 201
+   27  dotnet run 101
+   28  dotnet run 105
+   29  dotnet run
+   30  dotnet run 203
+   31  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   32  dotnet run 103
+   33  dotnet run 103 server
+   34  dotnet run 203 server
+   35  dotnet run 203 local
+   36  rm -r bin/ obj/
+   37  cd ..
+   38  cd DemoApp1/
+   39  ls
+   40  rm -r bin/ obj/
+   41  cd ..
+   42  ls
+   43  ls Sales/
+   44  rm -r Sales/obj/
+   45  rm -r Sales/bin/
+   46  ls
+   47  cd ..
+   48  ls
+   49  ls ConventionsTest/
+   50  ls ConventionsTest/DemoApp/
+   51  cd ..
+   52  history > cmd29-10-25morning.txt 

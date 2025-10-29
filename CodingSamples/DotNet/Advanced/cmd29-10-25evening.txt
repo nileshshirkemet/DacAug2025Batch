@@ -1,0 +1,31 @@
+ 1980  timedatectl status
+ 1981  sudo hwclocl -s
+ 1982  sudo hwclock -s
+ 1983  timedatectl status
+ 1984  vi .bashrc 
+ 1985  exit
+ 1986  timedatectl status
+ 1987  exit
+ 1988  dotnet --list-runtimes
+ 1989  cd Advanced/
+ 1990  ls
+ 1991  mkdir -p AspNetCore/EndpointTest/
+ 1992  cd AspNetCore/EndpointTest/
+ 1993  dotnet new console -n DemoApp -o DemoApp1
+ 1994  cd DemoApp1/
+ 1995  code .
+ 1996  cd Course/DotNet/Advanced/AspNetCore/EndpointTest/DemoApp1/
+ 1997  dotnet run
+ 1998  dotnet run --Urls http://localhost:5010
+ 1999  dotnet run --Urls "http://localhost:5010;https://localhost:5020"
+ 2000  dotnet run
+ 2001  dotnet run --Urls http://localhost:5010
+ 2002  dotnet run
+ 2003  rm -r bin/ obj/
+ 2004  cd ..
+ 2005  ls
+ 2006  cd ..
+ 2007  ls
+ 2008  cd ..
+ 2009  ls
+ 2010  history > cmd29-10-25evening.txt 
