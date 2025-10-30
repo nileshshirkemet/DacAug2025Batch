@@ -1,0 +1,36 @@
+    1  ls
+    2  mkdir AspNetCoreMvc
+    3  cd AspNetCoreMvc/
+    4  mkdir ControllerTest
+    5  cd ControllerTest/
+    6  dotnet new web -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  code .
+    9  dotnet run
+   10  dotnet build
+   11  ./bin/Debug/net9.0/DemoApp 
+   12  dotnet build
+   13  dotnet run
+   14  cp -r ../../../AspNetCore/EndpointTest/DemoApp2/Services/ .
+   15  dotnet run
+   16  cp -r ~/Course/DotNet/Advanced/EFCore/ConventionsTest/DemoApp/Tourism/ .
+   17  cp -r ~/Course/DotNet/Advanced/EFCore/ConventionsTest/DemoApp/site.db .
+   18  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   19  rm -r obj/ bin/
+   20  ls
+   21  ls Services/
+   28  cd AspNetCore
+   29  ls
+   30  rm MiddlewareTest/DemoApp/bin/
+   31  rm -r MiddlewareTest/DemoApp/bin/
+   32  rm -r MiddlewareTest/DemoApp/obj/
+   33  cd ..
+   34  ls
+   35  cd AspNetCoreMvc/
+   36  ls
+   37  cd ControllerTest/
+   38  ls
+   39  cd DemoApp1/
+   40  ls
+   41  ls Views/
+   44  history > cmd30-10-25evening.txt 

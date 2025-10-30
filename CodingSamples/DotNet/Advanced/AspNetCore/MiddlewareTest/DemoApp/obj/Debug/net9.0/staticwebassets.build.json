@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "490OUIIeZE44Nj81xnVEEZPbr4LRw4xqKsphlrmzeao=",
+  "Source": "DemoApp",
+  "BasePath": "_content/DemoApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoApp/wwwroot",
+      "Source": "DemoApp",
+      "ContentRoot": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/wwwroot/",
+      "BasePath": "_content/DemoApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/obj/Debug/net9.0/compressed/6hwb2kf8wo-vhcdxla261.gz",
+      "SourceId": "DemoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/DemoApp",
+      "RelativePath": "input#[.{fingerprint=vhcdxla261}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/wwwroot/input.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dcnpm69k8k",
+      "Integrity": "bYASlIQFq41/jx9kR2xRlOOh37h6mvj7h+num7NQ4vU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/wwwroot/input.html"
+    },
+    {
+      "Identity": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/wwwroot/input.html",
+      "SourceId": "DemoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/wwwroot/",
+      "BasePath": "_content/DemoApp",
+      "RelativePath": "input#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vhcdxla261",
+      "Integrity": "fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/input.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "input.html",
+      "AssetFile": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/obj/Debug/net9.0/compressed/6hwb2kf8wo-vhcdxla261.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005181347150"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bYASlIQFq41/jx9kR2xRlOOh37h6mvj7h+num7NQ4vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Oct 2025 05:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4="
+        }
+      ]
+    },
+    {
+      "Route": "input.html",
+      "AssetFile": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/wwwroot/input.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Oct 2025 05:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4="
+        }
+      ]
+    },
+    {
+      "Route": "input.html.gz",
+      "AssetFile": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/obj/Debug/net9.0/compressed/6hwb2kf8wo-vhcdxla261.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bYASlIQFq41/jx9kR2xRlOOh37h6mvj7h+num7NQ4vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Oct 2025 05:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bYASlIQFq41/jx9kR2xRlOOh37h6mvj7h+num7NQ4vU="
+        }
+      ]
+    },
+    {
+      "Route": "input.vhcdxla261.html",
+      "AssetFile": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/obj/Debug/net9.0/compressed/6hwb2kf8wo-vhcdxla261.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005181347150"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bYASlIQFq41/jx9kR2xRlOOh37h6mvj7h+num7NQ4vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Oct 2025 05:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhcdxla261"
+        },
+        {
+          "Name": "label",
+          "Value": "input.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4="
+        }
+      ]
+    },
+    {
+      "Route": "input.vhcdxla261.html",
+      "AssetFile": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/wwwroot/input.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Oct 2025 05:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhcdxla261"
+        },
+        {
+          "Name": "label",
+          "Value": "input.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSr8V+Jvr5OVCL6PvpAHDc+8VuBUKawCokNSzPZ2BS4="
+        }
+      ]
+    },
+    {
+      "Route": "input.vhcdxla261.html.gz",
+      "AssetFile": "/home/cdac/Course/DotNet/Advanced/AspNetCore/MiddlewareTest/DemoApp/obj/Debug/net9.0/compressed/6hwb2kf8wo-vhcdxla261.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bYASlIQFq41/jx9kR2xRlOOh37h6mvj7h+num7NQ4vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Oct 2025 05:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhcdxla261"
+        },
+        {
+          "Name": "label",
+          "Value": "input.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bYASlIQFq41/jx9kR2xRlOOh37h6mvj7h+num7NQ4vU="
+        }
+      ]
+    }
+  ]
+}
