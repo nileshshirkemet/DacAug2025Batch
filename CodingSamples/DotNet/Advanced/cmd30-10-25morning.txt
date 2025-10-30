@@ -1,0 +1,22 @@
+    1  clear
+    2  cd Advanced/AspNetCore/EndpointTest/
+    3  ls
+    4  cp -r DemoApp1 DemoApp2
+    5  cd DemoApp2/
+    6  code .
+    7  dotnet run
+    8  cd ..
+    9  mkdir MiddlewareTest
+   10  cd MiddlewareTest/
+   11  dotnet new web -n DemoApp
+   12  cd DemoApp/
+   13  code .
+   14  dotnet run
+   15  dotnet run --Urls http://localhost:5010
+   16  dotnet run
+   17  ./bin/Debug/net9.0/DemoApp 
+   18  dotnet build
+   19  ./bin/Debug/net9.0/DemoApp 
+   20  dotnet run
+   21  cd ..
+   22  history >cmd30-10-25morning.txt 
