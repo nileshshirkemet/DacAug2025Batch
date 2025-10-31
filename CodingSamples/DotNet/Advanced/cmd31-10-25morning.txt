@@ -1,0 +1,14 @@
+    1  dotnet run
+    2  cd ..
+    3  dotnet new web -n DemoApp -o DemoApp2
+    4  cd DemoApp2
+    5  cp -r ../DemoApp1/Tourism/ .
+    6  cp -r ../DemoApp1/site.db .
+    7  ls
+    8  code .
+    9  dotnet run
+   10  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   11  dotnet run
+   12  wget -qO wwwroot/alpine.js https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.15.0/cdn.min.js
+   13  dotnet run
+   14  history > cmd31-10-25morning.txt 
