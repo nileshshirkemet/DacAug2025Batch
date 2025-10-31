@@ -1,0 +1,19 @@
+    1  cd Advanced/AspNetCoreMvc/ControllerTest/DemoApp2/
+    2  cp ../DemoApp1/site.db .
+    3  dotnet run
+    4  cd ..
+    5  mkdir RazorPagesTest
+    6  cd RazorPagesTest/
+    7  dotnet new web -n DemoApp
+    8  cd DemoApp/
+    9  code .
+   10  dotnet run
+   11  cp -r ../../../AspNetCore/EndpointTest/DemoApp2/Services/ .
+   12  dotnet run
+   13  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   14  rm -r bin/ obj/
+   21  ls ControllerTest/
+   22  ls ControllerTest/DemoApp1/
+   23  ls ControllerTest/DemoApp2/
+   24  cd ..
+   25  history > cmd31-10-25evening.txt 

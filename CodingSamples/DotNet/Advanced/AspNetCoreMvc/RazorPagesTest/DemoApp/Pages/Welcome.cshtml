@@ -1,0 +1,31 @@
+@page "/Greet/{person=Visitor}"
+@inject DemoApp.Services.IVisitCounter counting
+@addTagHelper *, DemoApp
+@{
+    int digit = Environment.TickCount % 10;
+    int count = counting.CountNext("common");
+}
+@functions{
+
+    [BindProperty(SupportsGet = true)]
+    public string Person { get; set; }
+}
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        @if(digit < 5)
+        {
+            <h1>Welcome @Person</h1>
+        }
+        else
+        {
+            <h1>Hello @Person</h1>
+        }
+        <b>Number of Greetings: </b>@count
+        <p>
+            <snap time-display-format="yyyy-MM-dd hh:mm:ss tt"></snap>
+        </p>
+    </body>
+</html>

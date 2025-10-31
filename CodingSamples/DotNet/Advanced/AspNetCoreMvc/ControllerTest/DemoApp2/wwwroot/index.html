@@ -57,7 +57,7 @@
                             headers: {"Content-Type": "application/json"},
                             body: JSON.stringify(this.feedback)
                         };
-                        let response = fetch("api/feedbacks", request);
+                        let response = await fetch("api/feedbacks", request);
                         if(response.ok)
                             await this.readVisitors();
                     }
