@@ -1,0 +1,7 @@
+    1  cd Advanced/AspNetCoreMvc/RazorPagesTest/DemoApp/
+    2  code .
+    3  dotnet run
+    4  ls
+    5  cd ..
+    6  ls
+    7  history >cmd01-11-25morning.txt 
