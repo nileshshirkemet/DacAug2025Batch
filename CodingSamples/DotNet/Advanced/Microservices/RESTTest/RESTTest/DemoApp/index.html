@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>DemoApp</title>
+        <link rel="stylesheet" href="index.css"/>
+        <script defer src="scripts/alpine.js"></script>
+        <script src="scripts/index.js"></script>
+    </head>
+    <body x-data="new SalesDataSource()">
+        <h1>Welcome Sales Agent</h1>
+        <p>
+            <b>Your ID:</b>
+            <input type="text" x-model="agentLogin.id"/>
+            <b>PIN/OTP: </b>
+            <input type="password" x-model="agentLogin.passcode"/>
+            <button x-on:click="signInAgent()">Sign In</button>
+        </p>
+        <hr/>
+        <table border="0">
+            <tr>
+                <td>
+                    <h3>Manage Orders</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Customer ID:</b>
+                </td>
+                <td>
+                    <input type="text" x-model="orderEntry.customerId"/>
+                </td>
+                <td>
+                    <button x-on:click="readOrders()" x-bind:disabled="agentLogin.token.length == 0">Lookup</button>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>
+                    <b>Product No:</b>
+                </td>
+                <td>
+                    <input type="number" x-model="orderEntry.productNo"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Quantity:</b>
+                </td>
+                <td>
+                    <input type="number" x-model="orderEntry.quantity"/>
+                </td>
+                <td>
+                    <button x-on:click="createOrder()" x-bind:disabled="agentLogin.token.length == 0">Submit</button>
+                </td>
+            </tr>
+        </table>
+        <hr/>
+        <h4 x-text="statusReport"></h4>
+        <table border="1" x-show="orderList.length > 0">
+            <tr>
+                <th>Order Date</th>
+                <th>Product No</th>
+                <th>Quantity</th>
+            </tr>
+            <template x-for="entry in orderList">
+                <tr>
+                    <td x-text="entry.orderDate"></td>
+                    <td x-text="entry.productNo"></td>
+                    <td x-text="entry.quantity"></td>
+                </tr>
+            </template>
+        </table>
+    </body>
+</html>
