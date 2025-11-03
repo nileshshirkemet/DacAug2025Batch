@@ -1,0 +1,15 @@
+    1  cd ServerApp/
+    2  dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+    3  dotnet build
+    4  dotnet run
+    5  wget -q iitdac.met.edu/shared/python/MailCap.py
+    6  ls
+    7  dotnet run
+    8  cd ..
+    9  wget -qO- iitdac.met.edu/shared/web/salesui.tar.gz | tar x
+   10  cd DemoApp/
+   11  ls
+   12  code .
+   13  ./run 
+   14  cd ..
+   15  history >cmd03-11-25evening.txt 
