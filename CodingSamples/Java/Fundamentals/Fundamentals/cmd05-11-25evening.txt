@@ -1,0 +1,53 @@
+    1  clear
+    2  ls
+    3  cd Inheritance/
+    4  ls
+    5  mkdir InterfaceTest
+    6  cd InterfaceTest/
+    7  mkdir bank
+    8  cd bank/
+    9  code .
+   10  javac -d classes banking/*.java
+   11  ls classes/banking/
+   12  jar -cf met-bank-1.0.0.jar -C classes/ banking/
+   13  jar -tf met-bank-1.0.0.jar 
+   14  cd ..
+   15  mkdir demo1
+   16  cd demo1/
+   17  mkdir lib
+   18  cp ../bank/met-bank-1.0.0.jar  lib/
+   19  touch Program.java
+   20  code .
+   21  javac -d classes Program.java 
+   22  javac -d classes -cp lib/met-bank-1.0.0.jar Program.java 
+   23  javac -d classes -cp lib/* Program.java 
+   24  java -cp classes/:lib/* Program 
+   25  bash run
+   26  chmod u+x run 
+   27  ./run 
+   28  ./run 2000
+   29  ./run 8000
+   30  ./run 18000
+   31  ./run 6OOO
+   32  cd ../bank/
+   33  code .
+   34  javac -d classes/ banking/*.java
+   35  jar -cf met-bank-2.0.0.jar -C classes/ * 
+   36  ls
+   37  jar tf met-bank-2.0.0.jar 
+   38  cd ../demo1/
+   39  rm lib/met-bank-1.0.0.jar 
+   40  cp ../bank/met-bank-2.0.0.jar lib/
+   41  code .
+   42  ./run 
+   43  cd ../bank/
+   44  code .
+   45  javac -d classes/ banking/*.java
+   46  jar -cf met-bank-2.0.0.jar -C classes/ * 
+   47  cd ../demo1/
+   48  cp ../bank/met-bank-2.0.0.jar lib/
+   49  ./run 
+   50  pwd
+   51  cd ../../../../
+   52  cd Fundamentals/
+   53  history > cmd05-11-25evening.txt 

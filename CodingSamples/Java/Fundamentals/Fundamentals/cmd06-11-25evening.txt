@@ -1,0 +1,35 @@
+    1  java Program.java 87
+    2  cd Fundamentals/Generic/TypeParameterTest/demo1/
+    3  java Program.java 87
+    4  java Program.java 78
+    5  java Program.java
+    6  java Program.java 87
+    7  java Program.java 78
+    8  java Program.java 87
+    9  java Program.java 78
+   10  java Program.java 87
+   11  java Program.java 78
+   12  java Program.java 87
+   13  java Program.java
+   14  javap java.lang.String
+   15  javap java.lang.Double
+   16  cp ../../../Inheritance/SubclassTest/demo2/Interval.java .
+   17  java Program.java 87
+   18  java Program.java 78
+   19  java Program.java
+   20  cd ..
+   21  mkdir demo2
+   22  cd demo2/
+   23  cp ../demo1/Interval.java .
+   24  touch Program.java
+   25  code .
+   26  java Program.java
+   27  pwd
+   28  cd ../../../../
+   29  cd Fundamentals/
+   30  LS
+   31  ls
+   32  cp -r Fundamentals/ /mnt/d/DAC0825/Java
+   33* cp -r . Fundamentals/ /mnt/d/DAC0825/Java .
+   34  cp -r . Fundamentals/ /mnt/d/DAC0825/Java
+   35  history >cmd06-11-25evening.txt 
