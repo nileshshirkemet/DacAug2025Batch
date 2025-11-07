@@ -1,2 +1,0 @@
-javac -d classes -cp lib/* Program.java
-java -cp classes/:lib/* Program $*

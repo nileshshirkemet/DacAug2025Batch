@@ -1,2 +1,0 @@
-javac -d classes/ *.java **/*.java
-java -cp classes/ Program $*
