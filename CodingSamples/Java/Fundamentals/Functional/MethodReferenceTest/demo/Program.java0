@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class Program {
+
+    //inner nested class - is defined with static keyword 
+    //and can only refer to static members of outer class
+    static class SafeScheme implements InterestRate {
+
+        public double forPeriod(int years) {
+            return years < 3 ? 6 : 7;
+        }
+    }
+
+    public static void main(String[] args) {
+        var input = new Scanner(System.in);
+        System.out.print("Amount and Period: ");
+        double p = input.nextDouble();
+        int n = input.nextInt();
+        Investment inv = new Investment(p, n);
+        System.out.printf("Future value in riskless investment: %.2f%n", inv.futureValue(new SafeScheme()));
+        double bi = 8.75;
+        System.out.printf("Future value in riskful investment : %.2f%n", inv.futureValue(new InterestRate(){
+            //local variable(bi) of enclosing method(main) is captured
+            //by copy making this variable effectively final
+            public double forPeriod(int years) {
+                return bi + 0.25 * years;
+            }
+        }));
+        input.close();
+    }
+}
