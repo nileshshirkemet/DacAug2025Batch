@@ -1,0 +1,70 @@
+    1  ls
+    2  clear
+    3  cd Generic/TypeParameterTest/demo2/
+    4  java Program.java
+    5  cd ..
+    6  cp -r demo1 demo2
+    7  cd demo2/
+    8  code .
+    9  java Program.java
+   10  javap java.util.Iterator
+   11  java Program.java
+   12  pwd
+   13  c=ls
+   14  ls
+   15  cd ..
+   16  ls
+   17  ls demo1/
+   18  ls demo2/
+   19  ls demo1
+   20  ls
+   21  pwd
+   22  ls demo1
+   23  ls demo2/
+   24  vi demo2/
+   25  vi demo2/Program.java
+   26  cd ..
+   27  mkdir IterableTest
+   28  cd IterableTest/
+   29  mv ../TypeParameterTest/demo2/ demo1
+   30  cd demo1/
+   31  ls
+   32  ls demo1/
+   33  rm -r demo1/
+   34  ls
+   35  rm Program.java1
+   36  code .
+   37  javap java.lang.Iterable
+   38  cd ../..
+   39  cd TypeParameterTest/
+   40  ls
+   41  cp ../IterableTest/demo1/ demo2
+   42  cp -r ../IterableTest/demo1/ demo2
+   43  cd demo2/
+   44  cp ../demo1/Interval.java .
+   45  code .
+   46  java Program.java
+   47  cd ../
+   48  cd ../IterableTest/
+   49  cd demo1/
+   50  javac -d classes *.java
+   51  ls classes/
+   52  ls classes/common/
+   53  cd ..
+   54  mkdir demo2
+   55  cd demo2/
+   56  cp ../../TypeParameterTest/demo1/Interval.java .
+   57  code .
+   58  java Program.java
+   59  java Program.java wednesday
+   60  java Program.java thursday
+   61  java Program.java saturday
+   62  java Program.java friday
+   63  java Program.java wednesday
+   64  java Program.java thursday
+   65  java Program.java saturday
+   66  pwd
+   67  cd ../../../
+   68  cd ..
+   69  cd Fundamentals/
+   70  history >cmd07-11-25morning.txt 

@@ -1,0 +1,30 @@
+class Program {
+
+    private static Object select(int choice, Object first, Object second) {
+        if((choice % 2) == 1)
+            return first;
+        return second;
+    }
+
+    private static Comparable select(Comparable first, Comparable second) {
+        if(first.compareTo(second) > 0)
+            return first;
+        return second;
+    }
+
+    public static void main(String[] args) {
+        if(args.length > 0){
+            int s = Integer.parseInt(args[0]);
+            String ss = (String)select(s, "June", "July");
+            System.out.printf("Selected String = %s%n", ss);
+            double sd = (double)select(s, 8.25, 9.75); //auto-boxing
+            System.out.printf("Selected double = %s%n", sd);
+            select(s, 7.5, "Wednesday");
+        }else{
+            String ss = (String)select("June", "July");
+            System.out.printf("Selected String = %s%n", ss);
+            double sd = (double)select(8.25, 9.75);
+            System.out.printf("Selected double = %s%n", sd);           
+        }
+    }
+}
