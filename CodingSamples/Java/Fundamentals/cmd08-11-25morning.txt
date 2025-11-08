@@ -1,0 +1,41 @@
+    1  clear
+    2  cd Fundamentals/Functional/
+    3  ls
+    4  mkdir StreamTest
+    5  cd StreamTest/
+    6  mkdir demo1
+    7  cd demo1/
+    8  touch Program.java
+    9  code .
+   10  javac -d classes Program.java 
+   11  ls classes/
+   12  javac -d classes *.java
+   13  ls classes/
+   14  javap -p classes/Item.class 
+   15  java Program items intel
+   16  java Program.java items intel
+   17  javac -d classes/ *.java
+   18  java -cp classes/ Program items intel
+   19  java -cp classes/ Program items samsung
+   20* java -cp classes/ Program 
+   21  javac -d classes/ *.java
+   22  java -cp classes/ Program customers 0
+   23  javac -d classes/ *.java
+   24  java -cp classes/ Program customers 0
+   25  java -cp classes/ Program customers 50000
+   26  java -cp classes/ Program customers 80000
+   27  java -cp classes/ Program customers 100000
+   28  javap java.util.stream.Stream
+   29  cd ..
+   30  mkdir demo2
+   31  cd demo2
+   32  touch Program.java
+   33  wget -q iitdac.met.edu/shared/java/suppliers.csv
+   34  ls
+   35  code .
+   36  java Program.java
+   37  java Program.java cpu
+   38  java Program.java motherboard
+   39  java Program.java mouse
+   40  java Program.java xbox
+   41  history > ../../../cmd08-11-25morning.txt 
