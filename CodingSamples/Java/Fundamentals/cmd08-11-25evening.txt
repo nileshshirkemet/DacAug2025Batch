@@ -1,0 +1,54 @@
+    1  clear
+    2  mkdir -p Runtime/ReflectionTest/demo1
+    3  cd Runtime/ReflectionTest/demo1
+    4  cp ../../../Functional/StreamTest/demo1/Shop.java .
+    5  code .
+    6  javac -d classes *.java
+    7  java -cp classes/ Program
+    8  javac -d classes *.java
+    9  java -cp classes/ Program
+   10  javac -d classes *.java
+   11  java -cp classes/ Program
+   12  javac -d classes *.java
+   13  java -cp classes/ Program
+   14  javac -d classes *.java
+   15  java -cp classes/ Program
+   16  javac -d classes *.java
+   17  java -cp classes/ Program
+   18  javap java.lang.Object
+   19  javac -d classes *.java
+   20  java -cp classes/ Program
+   21  javac -d classes *.java
+   22  java -cp classes/ Program
+   23  javac -d classes *.java
+   24  java -cp classes/ Program
+   25  cd ..
+   26  mkdir bankfin
+   27  cd bankfin/
+   28  mkdir -p src/main/java
+   29  vi pom.xml
+   30  code .
+   31  mvn package
+   32  ls target/
+   33  mvn -q package
+   34  mvn install
+   35  rm ~/.m2/repository/course/
+   36  rm -r ~/.m2/repository/course/
+   37  mvn install
+   38  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/1.0.0/
+   39  ls
+   40  cd ..
+   41  ls
+   42  mkdir demo2
+   43  cd demo2/
+   44  mkdir -p src/main/java
+   45  cp ../bankfin/pom.xml .
+   46  code .
+   47  mvn compile
+   48* 
+   49  mvn compile dependency:dependencies-copy
+   50  mvn compile dependency:copy-dependencies
+   51  ls target/dependency/
+   52  mvn compile dependency:copy-dependencies
+   53  java -cp target/classes/:target/dependency/* app.Program 
+   54  history > ../../../cmd08-11-25evening.txt 
