@@ -1,0 +1,31 @@
+    1  pwd
+    2  code .
+    3  chmod a+x run 
+    4  ./run 2000000 EducationLoan
+    5  ls target/classes/
+    6  java -cp target/classes/:target/dependency/* app.Program 200000 EducationLoan
+    7  ./run 2000000 EducationLoan
+    8  ./run 2000000 PersonalLoan
+    9  ./run 2000000 HomeLoan
+   10  ./run 2000000 CarLoan
+   11  ./run 2000000 EducationLoan common
+   12  ./run 2000000 EducationLoan scholar
+   13  ./run 2000000 PersonalLoan scholar
+   14  ./run 2000000 PersonalLoan common
+   15  ./run 2000000 PersonalLoan employee
+   16  ./run 2000000 HomeLoan common
+   17  ./run 2000000 HomeLoan woman
+   18  ./run 2000000 HomeLoan women
+   19  ./run 2000000 HomeLoan welfare
+   20  ./run 2000000 CarLoan common
+   21  cd ../bankfin/
+   22  code .
+   23  mvn clean install
+   24  cd ../demo2/
+   25  code .
+   26  ./run 2000000 EducationLoan common
+   27  ./run 2000000 EducationLoan scholar
+   28  ./run 2000000 PersonalLoan common
+   29  ./run 2000000 CarLoan common
+   30  ./run 2000000 HomeLoan welfare
+   31  history > ../../../cmd10-11-25morning.txt 
