@@ -1,0 +1,2 @@
+javac -d classes app/Program.java
+java -cp classes --enable-native-access=ALL-UNNAMED app.Program $*

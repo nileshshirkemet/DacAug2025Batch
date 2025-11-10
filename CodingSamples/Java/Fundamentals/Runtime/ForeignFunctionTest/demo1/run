@@ -1,0 +1,4 @@
+if javac -d classes module-info.java app/Program.java ; then
+    java -p classes -Djava.library.path=native --enable-native-access=demo -m demo/app.Program $*
+fi
+
