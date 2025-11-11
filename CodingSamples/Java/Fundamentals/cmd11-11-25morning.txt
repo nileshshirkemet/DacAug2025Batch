@@ -1,0 +1,30 @@
+    1  cd Fundamentals/Runtime/ForeignFunctionTest/demo2/
+    2  ls
+    3  ./run 100 4
+    4  ./run 100 6
+    5  cd ../..
+    6  cd ..
+    7  mkdir Concurrency
+    8  cd Concurrency/
+    9  mkdir ThreadTest
+   10  cd ThreadTest/
+   11  mkdir demo1
+   12  cd demo1/
+   13  mkdir app
+   14  touch app/Program.java
+   15  code .
+   16  chmod a+x run
+   17  ./run 
+   18  ./run 3
+   19  ./run
+   20  javap java.lang.Runnable
+   21  ./run
+   22  ./run 3
+   23  ./run 
+   24  ./run 6
+   25  ./run 10
+   26  ./run 100
+   27  ./run 10
+   28  ./run 20
+   29  ./run 100
+   30  history > ../../../cmd11-11-25morning.txt 
