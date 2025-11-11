@@ -17,7 +17,7 @@ public class Program {
             handleJob(n);
         });
         //JVM does not wait for a daemon thread to exit
-        child.setDaemon(n > 10);
+        child.setDaemon(n > 5);
         child.start();
         manager.set("Jill");
         handleJob(2);

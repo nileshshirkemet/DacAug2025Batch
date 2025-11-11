@@ -1,0 +1,38 @@
+    1  cd Fundamentals/Concurrency/ThreadTest/demo1/
+    2  ./run 5
+    3  code .
+    4  ./run 5
+    5  ./run 4
+    6  ./run 6
+    7  ps -A
+    8  cd ..
+    9  mkdir demo2
+   10  cd demo2/
+   11  mkdir app
+   12  cp ../demo1/app/Activity.java app/
+   13  touch app/Program.java
+   14  cp ../demo1/run .
+   15  code .
+   16  ./run
+   17  code .
+   18  javap java.lang.Object
+   19  cd ../..
+   20  mkdir AsynParallelTest
+   21  cd AsynParallelTest/
+   22  cd ..
+   23  mv AsynParallelTest/ AsyncParallelTest/
+   24  cd AsyncParallelTest/
+   25  mkdir demo
+   26  mkdir app
+   27  cd demo/
+   28  mv ../app .
+   29  ls
+   30  touch app/Program.java
+   31  cp ../../ThreadTest/demo1/run .
+   32  code .
+   33  ./run 5
+   34  ./run 10
+   35  ./run 20
+   36  ./run 30
+   37  cd ..
+   38  history >cmd11-11-25evening.txt 

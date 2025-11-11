@@ -1,0 +1,23 @@
+package app;
+
+public class JointAccount {
+    
+    private int balance;
+
+    public int balance() {
+        return balance;
+    }
+
+    public boolean debit(int amount) {
+        boolean success = false;
+        if(balance >= amount){
+            balance = Activity.perform(balance, amount, -1);
+            success = true;
+        }
+        return success;
+    }
+
+    public void credit(int amount) {
+        balance = Activity.perform(balance, amount, +1);
+    }
+}
