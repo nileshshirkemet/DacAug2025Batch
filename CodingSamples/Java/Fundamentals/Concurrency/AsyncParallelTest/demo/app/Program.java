@@ -1,5 +1,6 @@
 package app;
 
+import java.util.concurrent.CompletableFuture;
 import java.util.stream.IntStream;
 
 public class Program {
@@ -11,8 +12,17 @@ public class Program {
         public long compute(int first, int last) {
             start = System.nanoTime();
             return IntStream.range(first, last + 1)
+                .parallel() //split incoming stream into sub-streams
                 .mapToLong(Activity::perform)
                 .sum();
+        }
+
+        public CompletableFuture<Long> computeAsync(int first, int second) {
+            //the supplied operation is scheduled to execute on a worker thread
+            //from the thread-pool allowing the caller thread to resume execution
+            //and obtain the result in future after the worker has completed
+            //the operation
+            return CompletableFuture.supplyAsync(() -> compute(first, second));
         }
 
         public double time() {
@@ -25,8 +35,14 @@ public class Program {
         int n = Integer.parseInt(args[0]);
         System.out.print("Computing...");
         var c = new Computation();
-        long r = c.compute(1, n);
-        System.out.println("Done!");
-        System.out.printf("Result = %d, computed in %.3f seconds.%n", r, c.time());
+        var job = c.computeAsync(1, n)
+            .thenAccept(r -> {
+                System.out.println("Done!");
+                System.out.printf("Result = %d, computed in %.3f seconds.%n", r, c.time());    
+            });
+        while(!job.isDone()){
+            System.out.print(".");
+            Thread.sleep(500);
+        }
     }
 }
