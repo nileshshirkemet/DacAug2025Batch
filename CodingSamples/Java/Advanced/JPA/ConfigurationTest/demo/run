@@ -1,0 +1,5 @@
+if mvn -q clean compile dependency:copy-dependencies ; then
+	java -cp target/classes/:target/dependency/* --enable-native-access=ALL-UNNAMED --sun-misc-unsafe-memory-access=allow app.Program $*
+fi
+
+

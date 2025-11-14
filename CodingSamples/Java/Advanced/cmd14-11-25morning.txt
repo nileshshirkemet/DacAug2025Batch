@@ -1,0 +1,25 @@
+    1  ls
+    2  cd ../
+    3  cd ..
+    4  vi ExecSQLTest/demo2/salesora.sql 
+    5  mkdir StoredProcTest
+    6  cd StoredProcTest/
+    7  unzip -d demo ../../maven-projects/simple-app.zip 
+    8  cd demo/
+    9  ls
+   10  code .
+   11  ./run CU103 105 9
+   12  ./run CU103 108 20
+   13  ./run CU108 104 20
+   14  cd ../..
+   15  cd ..
+   16  mkdir JPA
+   17  cd JPA
+   18  mkdir ConfigurationTest
+   19  cd ConfigurationTest/
+   20  unzip -d demo ../../maven-projects/eclink-app.zip 
+   21  code .
+   22  cd demo/
+   23  code .
+   24  history ../../../cmd14-11-25morning.txt 
+   25  history > ../../../cmd14-11-25morning.txt 
