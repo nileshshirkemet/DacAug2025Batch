@@ -1,0 +1,17 @@
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>samples</groupId>
+    <artifactId>demo</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <maven.compiler.release>24</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+	<dependencies>
+	</dependencies>
+
+</project>
+

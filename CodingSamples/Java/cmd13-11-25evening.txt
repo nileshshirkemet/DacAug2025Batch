@@ -1,0 +1,27 @@
+    1  clear
+    2  ls
+    3  mkdir JDBC
+    4  cd JDBC
+    5  mysql -h localhost -u root -proot -D sales
+    6  mkdir ExecSQLTest
+    7  cd ExecSQLTest/
+    8  unzip -d demo1 ../../maven-projects/simple-app.zip 
+    9  cd demo1/
+   10  code .
+   11  ./run 
+   12  javap java.sql.Driver
+   13  ./run 
+   14  ./run 303
+   15  ./run 
+   16  ./run 403
+   17  ssh dac@metiitdac.met.edu
+   18  cd ..
+   19  unzip -d demo2 ../../maven-projects/simple-app.zip 
+   20  cd demo2/
+   21  code .
+   22  ./run 
+   23  ./run CU102 104 12
+   24  ./run CU108 101 7
+   25  ./run CU104 101 7
+   26  wget -q metiitdac.met.edu/shared/data/salesora.sql
+   27  history > ../../../cmd13-11-25evening.txt 
