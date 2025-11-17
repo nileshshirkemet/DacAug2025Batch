@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>DemoApp</title>
+        <script defer src="alpine.js"></script>
+    </head>
+    <body x-data="siteDataSource()" x-init="readVisitors()">
+        <h1>Welcome Visitor</h1>
+        <hr/>
+        <h2>Our Visitors</h2>
+        <table border="1">
+            <tr>
+                <th>Visitor Name</th>
+                <th>Visit Count</th>
+                <th>Recent Visit</th>
+                <th>Star Rating</th>
+            </tr>
+            <template x-for="entry in visitors">
+                <tr>
+                    <td x-text="entry.name"></td>
+                    <td x-text="entry.visits"></td>
+                    <td x-text="entry.recent"></td>
+                    <td x-text="entry.stars"></td>
+                </tr>
+            </template>
+        </table>
+        <hr/>
+        <h2>Register Visit</h2>
+        <p>
+            <b>Your Name: </b>
+            <input type="text" x-model="feedback.person"/>
+        </p>
+        <p>
+            <b>Experience: </b>
+            <select x-model="feedback.rating">
+                <option value="5">Fantastic</option>
+                <option value="4">Fine</option>
+                <option value="3">Average</option>
+                <option value="2">Poor</option>
+                <option value="1">Pathetic</option>
+            </select>
+        </p>
+        <button x-on:click="writeVisitor()">Apply</button>
+        <hr/>
+        <script>
+            function siteDataSource(){
+                return {
+                    visitors: [],
+                    feedback: {person: "", rating: 0},
+                    async readVisitors(){
+                        let response = await fetch("api/feedbacks");
+                        if(response.ok)
+                            this.visitors = await response.json();
+                    },
+                    async writeVisitor(){
+                        let request = {
+                            method: "put",
+                            headers: {"Content-Type": "application/json"},
+                            body: JSON.stringify(this.feedback)
+                        };
+                        let response = await fetch("api/feedbacks", request);
+                        if(response.ok)
+                            await this.readVisitors();
+                    }
+                };
+            }
+        </script>
+    </body>
+</html>
