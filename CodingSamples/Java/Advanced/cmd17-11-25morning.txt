@@ -1,0 +1,20 @@
+    1  ls
+    2  cd WebServletTest/
+    3  ls
+    4  unzip -d demo2 ../../maven-projects/jetty-webapp.zip 
+    5  cd demo2/
+    6  code .
+    7  ./run 
+    8  ./run -Dgreeting.prefix=meet
+    9  ./run 
+   10  cd ..
+   11  cp -r ../../JPA/ConfigurationTest/demo/ tours
+   12  cd tours/
+   13  vi pom.xml 
+   14  rm src/main/java/app/Program.java 
+   15  mvn clean install
+   16  cd ../demo2/
+   17  ./run 
+   18  cp ~/Course/DotNet/Advanced/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/* src/main/webapp/
+   19  ./run 
+   20  history > ../../../cmd17-11-25morning.txt
