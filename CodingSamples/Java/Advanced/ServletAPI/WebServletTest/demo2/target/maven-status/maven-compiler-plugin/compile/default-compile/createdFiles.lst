@@ -1,0 +1,4 @@
+app/components/WebAppInitializer.class
+app/components/SiteServlet$Feedback.class
+app/components/GreetingServlet.class
+app/components/SiteServlet.class
