@@ -1,0 +1,10 @@
+    1  cd ..
+    2  mkdir JSP
+    3  cd JSP/
+    4  mkdir JavaBeanTest
+    5  cd JavaBeanTest/
+    6  unzip -d demo ../../maven-projects/tomcat-webapp.zip 
+    7  cd demo/
+    8  code .
+    9  ./run 
+   10  history > ../../../cmd18-11-25morning.txt 
