@@ -1,6 +1,8 @@
 package app.components;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomerModelBean {
 
@@ -26,6 +28,24 @@ public class CustomerModelBean {
             }
             id = null;
             return false;
+        }catch(SQLException e){
+            throw new RuntimeException(e);
+        }
+    }
+
+    public List<OrderEntry> getOrders() {
+        try(var con = ShopDB.pool.getConnection()){
+            var orders = new ArrayList<OrderEntry>();
+            var stmt = con.prepareStatement("select pno, qty, ord_date from orders where cust_id=?");
+            stmt.setString(1, id);
+            var rs = stmt.executeQuery();
+            while(rs.next()){
+                var order = new OrderEntry(rs);
+                orders.add(order);
+            }
+            rs.close();
+            stmt.close();
+            return orders;
         }catch(SQLException e){
             throw new RuntimeException(e);
         }

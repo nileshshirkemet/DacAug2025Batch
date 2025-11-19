@@ -28,5 +28,22 @@
 		</attribute>
   	</tag>
 
+	<tag>
+		<name>fetchNextOrder</name>
+		<tag-class>app.components.OrderViewTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>orderVar</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>orderSource</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+  	</tag>
+
 </taglib>
 

@@ -14,6 +14,13 @@
                 <th>Quantity</th>
                 <th>Order Date</th>
             </tr>
+            <d:fetchNextOrder orderVar="entry" orderSource="${customer.orders}">
+                <tr>
+                    <td>${entry.productNo}</td>
+                    <td>${entry.quantity}</td>
+                    <td>${entry.orderDate}</td>
+                </tr>
+            </d:fetchNextOrder>
         </table>
         <p>
             <a href="/">Logout</a>
