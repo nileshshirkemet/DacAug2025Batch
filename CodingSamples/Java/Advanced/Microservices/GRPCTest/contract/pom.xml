@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    
+	<modelVersion>4.0.0</modelVersion>
+    <groupId>course.java.advanced</groupId>
+    <artifactId>met-sales</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <maven.compiler.release>24</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <grpc.version>1.76.0</grpc.version>
+        <protobuf.version>3.25.8</protobuf.version>
+        <protobuf-plugin.version>0.6.1</protobuf-plugin.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-stub</artifactId>
+            <version>${grpc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-protobuf</artifactId>
+            <version>${grpc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-netty-shaded</artifactId>
+            <version>${grpc.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.7.1</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <groupId>org.xolstice.maven.plugins</groupId>
+                <artifactId>protobuf-maven-plugin</artifactId>
+                <version>${protobuf-plugin.version}</version>
+                <configuration>
+                    <protocArtifact>com.google.protobuf:protoc:${protobuf.version}:exe:${os.detected.classifier}</protocArtifact>
+                    <pluginId>grpc-java</pluginId>
+                    <pluginArtifact>io.grpc:protoc-gen-grpc-java:${grpc.version}:exe:${os.detected.classifier}</pluginArtifact>
+                </configuration>
+                <executions>
+                    <execution>
+						<configuration>
+							<pluginParameter>@generated=omit</pluginParameter>
+						</configuration>
+                        <goals>
+                            <goal>compile</goal>
+                            <goal>compile-custom</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
+
