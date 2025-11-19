@@ -1,0 +1,12 @@
+    1  cd TagHandlerTest/demo1/
+    2  ls
+    3  ./run 
+    4  cd ..
+    5  unzip -d demo2 ../../maven-projects/tomcat-webapp.zip 
+    6  cd demo2/
+    7  code .
+    8  ./run 
+    9  ls
+   10  cd ..
+   11  ls
+   12  history >cmd19-11-25morning.txt 
