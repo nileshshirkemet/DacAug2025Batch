@@ -1,0 +1,25 @@
+    1  pwd
+    2  cd ../..
+    3  cd TagHandlerTest/demo2/
+    4  ./run 
+    5  cd ../..
+    6  cd ..
+    7  mkdir Microservices
+    8  cd Microservices/
+    9  mkdir GRPCTest
+   10  cd GRPCTest/
+   11  unzip -d contract ../../maven-projects/grpc-protolib.zip 
+   12  cd contract/
+   13  ls
+   14  code .
+   15  mvn install
+   16  vi target/generated-sources/protobuf/java/sales/OrderManagerOuterClass.java 
+   17  vi target/generated-sources/protobuf/grpc-java/sales/OrderManagerGrpc.java 
+   18  code .
+   19  cd ..
+   20  unzip -d server ../../maven-projects/eclink-app.zip 
+   21  cd server/
+   22  code .
+   23  ./run 
+   24  pwd
+   25  history > ../../../cmd19-11-25evening.txt 
