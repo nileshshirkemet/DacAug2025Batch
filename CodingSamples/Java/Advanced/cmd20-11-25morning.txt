@@ -1,0 +1,31 @@
+    1  clear
+    2  cd GRPCTest/
+    3  cd server/
+    4  ls
+    5  code .
+    6  vi ../contract/src/main/proto/order_manager.proto 
+    7  cd ..
+    8  mkdir demo
+    9  cd demo/
+   10  cp ~/Course/DotNet/Advanced/Microservices/GRPCTest/DemoApp/*.py .
+   11  ls
+   12  python3 Program.py CU101
+   13  python3 Program.py CU102
+   14  python3 Program.py CU101 102 10
+   15  python3 Program.py CU101
+   16  python3 Program.py CU101 106 10
+   17  vi Program.py 
+   18  cd ..
+   19  mkdir RESTTest
+   20  cd RESTTest/
+   21  unzip ../../maven-projects/jersey-restsvc.zip 
+   22  code .
+   23  ls
+   24  rm -r *
+   25  unzip -d server ../../maven-projects/jersey-restsvc.zip 
+   26  cd server/
+   27  code .
+   28  vi ../../GRPCTest/contract/src/main/proto/order_manager.proto 
+   29  ./run 
+   30  cd ..
+   31  history > cmd20-11-25morning.txt 
