@@ -1,0 +1,7 @@
+    1  clear
+    2  cd server/
+    3  code .
+    4  ./run 
+    5  pwd
+    6  cd ..
+    7  history >cmd21-11-25morning.txt 
