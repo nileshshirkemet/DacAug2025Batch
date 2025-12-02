@@ -1,0 +1,31 @@
+.container{
+    border: solid;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: center;
+}
+a{
+    color: rgb(109, 9, 19);
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.homepage h1{
+    font-size: 90px;
+    text-transform: uppercase;
+}
+.homepage p{
+    font-size: 30px;
+    line-height: 2;
+}
+
+table{
+    border: 1px solid red;
+    width: 100%;
+    font-size: 30px;
+}
+td,th{
+    border: 1px solid;
+}
