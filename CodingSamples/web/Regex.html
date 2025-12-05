@@ -1,0 +1,19 @@
+<script>
+    //regular expression regex
+
+    // let regexPincode = /^[1-9][0-9][0-9][0-9][0-9][0-9]$/;
+    // let regexPincode = /^[1-9][0-9]{5}$/;
+    let regexPincode = /^[1-9][\d]{5}$/;
+    let pincode = 400001
+    console.log(regexPincode.test(pincode));
+    
+
+    let regexPancard = /^([a-zA-Z]{5})([\d]{4})([A-z])$/;
+    let pancard = "abcde1323s"
+    console.log(regexPancard.test(pancard));
+
+    let regexMobile = /^[6-9][\d]{9}$/;
+    let mobile = 9889889880;
+    console.log(regexMobile.test(mobile));
+    
+</script>

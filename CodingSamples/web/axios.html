@@ -1,0 +1,44 @@
+<!-- axios == > ajax+promise==> third party -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<input type="text" id="x1" placeholder="india">
+<button>GET DATA</button>
+<div id="result"></div>
+
+<script>
+    // console.log(axios);
+    document.querySelector('button').addEventListener('click',function(){
+        document.getElementById('result').innerHTML="";
+
+        let record = document.getElementById('x1').value;
+        if(record!=""){
+            const APIPATH=`https://restcountries.com/v3.1/name/${record}`;
+            let result = axios.get(APIPATH);
+            console.log(result);
+            
+            result
+            .then((response)=>{
+                console.log(response);
+                console.log(response.data);
+                response.data.forEach((values)=>{
+                    console.log(
+                        values.name.common , values.flags.png
+                    );
+
+                    let divTag = document.createElement('div');
+                    console.log(divTag);
+                    
+                    let imgTag = document.createElement("img");
+                    let pTag = document.createElement("p");
+                    imgTag.src = values.flags.png;
+                    pTag.innerText = values.name.common;
+                    divTag.append(imgTag,pTag);
+                    document.getElementById('result').append(divTag);
+                })
+
+            })
+            .catch()
+            .finally();
+        }
+    });
+</script>

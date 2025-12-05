@@ -1,0 +1,20 @@
+<script>
+    let brands = ['nike','puma','adidas'];
+    //any function which is passed as an argument to an outer function is called as callback func
+    brands.forEach(function(val,i){
+        console.log(val,i);
+    });
+    // console.log(brands.length);
+    // let arr=[]
+    brands.forEach((val,i)=>{
+        console.log(val,i);
+        // arr.push(brands[brands.length-1-i])
+    });
+    // console.log(arr);
+    
+    users = ['user1','user2','user3'];
+    // [Dr.user1,Dr.user2,Dr.user3]
+    let ans = users.map( value =>  'Dr.'+value);
+    console.log(ans);
+    
+</script>

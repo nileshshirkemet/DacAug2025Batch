@@ -1,0 +1,14 @@
+<script>
+    let i=1;
+    let roi=7.1/100;
+    let amount=150000;
+    let openingBalance=0;
+    while(i<=15){
+        let interest= (openingBalance+amount)*roi;
+        interest = Math.round(interest);
+        let closingBalance=  openingBalance+amount+interest;
+        console.log(i , openingBalance , amount , interest,closingBalance);
+        i++;
+        openingBalance=closingBalance;
+    }
+</script>

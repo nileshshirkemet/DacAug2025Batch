@@ -1,0 +1,32 @@
+<script>
+    let products = [
+        {
+            name:'shirt',price:100
+        },
+        {
+            name:'Jeans',price:200
+        },
+        {
+            name:'Shoes',price:300
+        }
+    ];
+
+    console.log(products);
+    
+    for(let val of products){
+        console.log(val);
+        document.write( `
+            <div>
+                <h2>${val.price}</h2>
+                <p>${val.name}</p>
+                <button>Add To Cart</button>    
+            </div>
+        `) ;       
+    }
+</script>
+
+<style>
+    div{
+        border: solid;text-align: center;width: 300px; height: 400px;float: left;
+    }
+</style>

@@ -1,0 +1,19 @@
+<div>login</div>
+
+<style>
+    div{
+        width: 100px;height: 100px;
+        border: solid;text-align: center;
+    }
+</style>
+
+<script>
+    document.querySelector('div').style.display='none';
+    setTimeout(()=>{
+        document.querySelector('div').style.display='block';
+
+        setTimeout(()=>{
+            document.querySelector('div').style.display='none';
+        },3000);
+    } , 3000);
+</script>

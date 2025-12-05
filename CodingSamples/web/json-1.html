@@ -1,0 +1,36 @@
+<script>
+    let info = '{"name":"virat","age":20,"hobbies":["reading","cricket"],"status":true,"data":null}';
+
+    console.log(info);
+    console.log(typeof info);
+    
+    let ans = JSON.parse(info);
+    console.log(ans);    
+
+    let product = {
+        name:"shirt",price:1000,
+        size:["xl","xxl"]
+    }
+    console.log(product);
+    let result = JSON.stringify(product);
+    console.log(result);
+</script>
+<!--  
+    object
+    string
+    number
+    array
+    boolean
+    (undefined)XX
+    (function)XX
+
+-->
+
+<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>  -->

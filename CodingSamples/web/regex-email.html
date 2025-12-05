@@ -1,0 +1,16 @@
+<!-- regex for email & pass 
+    []+
+    []{1,}
+-->
+
+<script>
+    let email = 'nn@mm.com';
+    let regexpEmail = /^([A-z0-9_\.]+)@([A-z0-9\-]+)\.([A-z]{2,})$/;
+    let result = regexpEmail.test(email);
+    console.log(result);
+
+    let password = 'Mn5$1sF#';
+    let regexpPassword = /^(?=.*[a-z])(?=.*[\d])(?=.*[A-Z])(?=.*[@#\{\-\^\$]).{4,8}$/;
+    let result1 = regexpPassword.test(password);
+    console.log(result1);
+</script>
